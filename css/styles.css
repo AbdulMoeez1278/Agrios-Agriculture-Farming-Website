@@ -2026,17 +2026,17 @@ textarea {
 
 .healthyFoodContainer {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   width: 100%;
   margin-top: 80px;
 }
 
 .healthyFoodLeft {
-  width: 60%;
+  width: 70%;
 }
 
 .healthyFoodRight {
-  width: 40%;
+  width: 30%;
   /* border: 2px solid blue; */
 }
 
@@ -2094,3 +2094,87 @@ textarea {
   font-weight: 800;
   margin-top: 5px;
 }
+
+/* healthy food projects container start  */
+.healthyFoodProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 100px;
+}
+
+.healthyFoodProjectsContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.healthyFoodProjectsContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.healthyFoodProjectsBoxes {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.healthyFoodProjectsBoxes h3 {
+  margin-bottom: 20px;
+  padding: 0 18px;
+  color: #ffffff;
+}
+
+.healthyFoodProjectsBoxFirst {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  background: url("../assets/images/healthyFoodProjectsImage1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.healthyFoodProjectsBoxSecond {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  background: url("../assets/images/healthyFoodProjectsImage2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.healthyFoodProjectsBoxThird {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  background: url("../assets/images/healthyFoodProjectsImage3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.healthyFoodProjectsBoxFourth {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  background: url("../assets/images/healthyFoodProjectsImage4.png");
+  background-position: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+/* healthy projects container end  */

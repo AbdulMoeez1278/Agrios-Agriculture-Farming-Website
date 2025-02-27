@@ -235,6 +235,10 @@
   input[type="email"] {
     margin-left: 0;
   }
+
+  .projectsContainer {
+    flex-wrap: wrap;
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 769px TO 1057px */
@@ -1251,6 +1255,52 @@
   input[type="email"] {
     margin-left: 0;
   }
+
+  .projectsBackground {
+    height: 30vh;
+  }
+
+  .projectsBackground h1 {
+    font-size: 32px;
+  }
+
+  .projectsContainer {
+    margin-top: 60px;
+  }
+
+  .projectsBoxesFirst {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .projectsBoxFirst {
+    width: 80%;
+    background-size: cover;
+  }
+  .projectsBoxSecond {
+    width: 80%;
+    background-size: cover;
+  }
+  .projectsBoxThird {
+    width: 80%;
+    background-size: cover;
+  }
+  .projectsBoxesSecond {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectsBoxFourth {
+    width: 80%;
+    background-size: cover;
+  }
+  .projectsBoxFifth {
+    width: 80%;
+    background-size: cover;
+  }
+  .projectsBoxSixth {
+    width: 80%;
+    background-size: cover;
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 320px TO 480px */
@@ -2096,6 +2146,62 @@
 
   .contactButton {
     padding: 14px 20px;
+  }
+
+  .projectsBackground {
+    height: 30vh;
+  }
+
+  .projectsBackground p {
+    font-size: 12px;
+  }
+
+  .projectsBackground h1 {
+    font-size: 24px;
+  }
+
+  .projectsContainer {
+    margin-top: 40px;
+  }
+
+  .projectsBoxesFirst {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .projectsBoxFirst {
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+  }
+  .projectsBoxSecond {
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+  }
+  .projectsBoxThird {
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+  }
+  .projectsBoxesSecond {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectsBoxFourth {
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+  }
+  .projectsBoxFifth {
+    width: 80%;
+    height: 300px;
+    background-size: cover;
+  }
+  .projectsBoxSixth {
+    width: 80%;
+    height: 300px;
+    background-size: cover;
   }
 
   .footerContainer {

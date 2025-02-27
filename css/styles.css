@@ -278,6 +278,7 @@
 .navItems ul li:hover .dropdownContentProjects {
   display: block;
 }
+
 /* projects dropdown end  */
 
 /* news dropdown start  */
@@ -2009,3 +2010,87 @@ textarea {
 
 /*  projects container end  */
 /* PROJECTS LANDING PAGE END  */
+
+/* HEALTHY FOOD LANDING PAGE START  */
+/* healthy food container start  */
+.healthyFoodImage {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.healthyFoodImage img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.healthyFoodContainer {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.healthyFoodLeft {
+  width: 60%;
+}
+
+.healthyFoodRight {
+  width: 40%;
+  /* border: 2px solid blue; */
+}
+
+.healthyFoodLeft h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.healthyFoodLeft p {
+  color: #878680;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+
+.healthyFoodLeft .foodPara {
+  color: #1f1e17;
+  font-weight: 800;
+  margin: 40px 0;
+}
+
+.healthyFoodLeft h3 {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 40px 0;
+}
+
+.healthyFoodLeft .challengesPara {
+  color: #1f1e17;
+  font-weight: 800;
+}
+
+.healthyFoodRightContent {
+  width: 100%;
+  height: 50vh;
+  padding: 30px 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border-top: 4px solid #eec043;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.healthyFoodRightText {
+  margin-top: 20px;
+}
+
+.healthyFoodRightContent p {
+  color: #878680;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.healthyFoodRightContent .foodPara {
+  color: #1f1e17;
+  font-weight: 800;
+  margin-top: 5px;
+}

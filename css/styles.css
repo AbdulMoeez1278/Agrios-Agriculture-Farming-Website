@@ -1,0 +1,1858 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Covered+By+Your+Grace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", serif;
+}
+
+/* main container  */
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* first header style start  */
+.headAgriosFirst {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 1280px; */
+}
+
+.hamburger {
+  width: 20px;
+  display: none;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+}
+
+.socialIcons ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.socialIcons ul li {
+  padding: 10px;
+  background: #f8f7f0;
+  border-radius: 100%;
+  margin: 0 5px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.socialIcons ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.fa {
+  text-align: center;
+}
+
+.navBoxes {
+  display: flex;
+  gap: 10px;
+}
+
+.navBox {
+  display: flex;
+  gap: 15px;
+  padding: 0 15px;
+  /* border-right: 1px solid #e4e2d7; */
+}
+
+.iconText p {
+  font-size: 12px;
+  color: #878680;
+}
+
+.iconText h3 {
+  font-size: 14px;
+}
+
+.sidebar {
+  display: none;
+}
+
+/* SIDEBAR STYLING */
+/* .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.sidebar .logo {
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 20px 85px;
+}
+
+.logo img {
+  width: 70px;
+  border-radius: 40%;
+}
+
+.sidebarMenu {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.sidebarMenu li {
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.sidebarMenu li:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0 40 104);
+}
+
+.sidebarMenu li a {
+  padding: 20px 80px;
+  color: white;
+  font-weight: bolder;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.sidebarMenu li a:hover {
+  color: white;
+} */
+/* first header style end  */
+
+/* second header with nav items start  */
+.headAgriosSecond {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItems ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navItems ul li {
+  padding: 0 38px;
+}
+
+.navItems ul li a:hover {
+  color: #1f1f1f;
+}
+
+.navItems ul li a {
+  text-decoration: none;
+  color: #545454;
+  font-size: 16px;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.navItems ul li .active {
+  color: #1f1f1f;
+}
+
+/* .dropdownContent {
+  display: none;
+} */
+
+.dropdownContentHome {
+  display: none;
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 210px;
+  top: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.dropdownContentHome .ulBar {
+  flex-direction: column;
+  list-style: none;
+}
+
+.dropdownContentHome .dropdownItems {
+  padding: 10px 0;
+}
+
+.dropdownContentHome li a:hover {
+  color: black;
+}
+
+.navItems ul li:hover .dropdownContentHome {
+  display: block;
+}
+
+/* services dropdown start  */
+.dropdownContentServices {
+  display: none;
+  position: absolute;
+  width: 15%;
+  height: auto;
+  left: 440px;
+  top: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.dropdownContentServices .ulBar {
+  flex-direction: column;
+  list-style: none;
+}
+
+.dropdownContentServices .dropdownItems {
+  padding: 10px 0;
+}
+
+.dropdownContentServices li a:hover {
+  color: black;
+}
+
+.navItems ul li:hover .dropdownContentServices {
+  display: block;
+}
+/* services dropdown end  */
+
+/* projects dropdown start  */
+.dropdownContentProjects {
+  display: none;
+  position: absolute;
+  width: 15%;
+  height: auto;
+  left: 600px;
+  top: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.dropdownContentProjects .ulBar {
+  flex-direction: column;
+  list-style: none;
+}
+
+.dropdownContentProjects .dropdownItems {
+  padding: 10px 0;
+}
+
+.dropdownContentProjects li a:hover {
+  color: black;
+}
+
+.navItems ul li:hover .dropdownContentProjects {
+  display: block;
+}
+/* projects dropdown end  */
+
+/* news dropdown start  */
+.dropdownContentNews {
+  display: none;
+  position: absolute;
+  width: 10%;
+  height: auto;
+  right: 640px;
+  top: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.dropdownContentNews .ulBar {
+  flex-direction: column;
+  list-style: none;
+}
+
+.dropdownContentNews .dropdownItems {
+  padding: 10px 0;
+}
+
+.dropdownContentNews li a:hover {
+  color: black;
+}
+
+.navItems ul li:hover .dropdownContentNews {
+  display: block;
+}
+/* news dropdown end  */
+
+/* shop dropdown start  */
+.dropdownContentShop {
+  display: none;
+  position: absolute;
+  width: 10%;
+  height: auto;
+  right: 510px;
+  top: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.dropdownContentShop .ulBar {
+  flex-direction: column;
+  list-style: none;
+}
+
+.dropdownContentShop .dropdownItems {
+  padding: 10px 0;
+}
+
+.dropdownContentShop li a:hover {
+  color: black;
+}
+
+.navItems ul li:hover .dropdownContentShop {
+  display: block;
+}
+/* shop dropdown end  */
+
+.secondHeadIcons {
+  display: flex;
+  gap: 25px;
+}
+
+.searchIcon {
+  cursor: pointer;
+}
+
+.cartIcon {
+  cursor: pointer;
+}
+/* second header with nav items end  */
+
+/* main section start  */
+.heroBackground {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background: url("../assets/images/heroImage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* hero section start  */
+.heroContainer {
+  width: 100%;
+  color: white;
+}
+
+.heroItems {
+  display: flex;
+  gap: 20px;
+}
+
+/* .heroText {
+  margin-top: 50px;
+} */
+
+.heroText p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.heroText h1 {
+  font-size: 95px;
+  font-weight: 400;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.heroButton {
+  margin-top: 30px;
+}
+
+.heroBtn {
+  border: none;
+  color: #ffffff;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 4px;
+}
+
+.heroBtn:hover {
+  background-color: #b99f57;
+}
+
+.heroLeafImage {
+  margin-top: 30px;
+}
+
+.heroLeafImage img {
+  width: 100px;
+}
+
+.heroBoxes {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+}
+
+.heroBox {
+  padding: 0 60px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.heroBox p {
+  margin-top: 20px;
+  color: #eec044;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.heroBox h4 {
+  margin-top: 10px;
+  color: #1f1e17;
+  font-weight: 800;
+}
+
+.heroBoxImage {
+  margin-top: 10px;
+}
+
+.heroBoxImage img {
+  width: 70%;
+  height: 70px;
+}
+
+/* introduction section start  */
+.introductionContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.introLeft {
+  width: 50%;
+  position: relative;
+}
+
+.introFirstImage img {
+  width: 80%;
+  height: 460px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.introSecondImage img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  padding: 10px;
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.introRight {
+  width: 50%;
+  /* border: 2px solid black; */
+}
+
+.introRight span {
+  color: #eec044;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.introRight h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #1f1e17;
+}
+
+.introRight h4 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #4baf47;
+  margin-top: 30px;
+}
+
+.introRight p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 2em;
+}
+
+.introItems {
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+.introBox {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.introTextsBox {
+  margin-top: 30px;
+}
+
+.introText {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.introbtn {
+  border: none;
+  color: #ffffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.introbtn:hover {
+  background-color: #b99f57;
+}
+/* introduction section end */
+
+/* services container start  */
+.servicesBackground {
+  height: 40vh;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f7f0;
+}
+
+.servicesContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.servicesContainer h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.servicesBox {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  position: relative;
+  bottom: 120px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.serviceItemFirst {
+  display: flex;
+  width: 12%;
+  height: 300px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesImage1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.servicesItems {
+  position: relative;
+  margin: 20px 0;
+  padding: 10px 35px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.servicesItems h5 {
+  margin-top: 20px;
+}
+
+.servicesBtn {
+  border: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.serviceItemSecond {
+  display: flex;
+  width: 12%;
+  height: 300px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesImage2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.serviceItemThird {
+  display: flex;
+  width: 12%;
+  height: 300px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesImage3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.serviceItemFourth {
+  display: flex;
+  width: 12%;
+  height: 300px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesImage4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.servicesIcons {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #c5ce38;
+  border-radius: 7px;
+  left: 50%;
+  padding: 5px;
+  top: 0;
+}
+/* services container end  */
+
+/* video container style start  */
+.videoBackground {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background: url("../assets/images/videoSectionImage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.videoContainer {
+  width: 100%;
+  position: relative;
+  bottom: 60px;
+}
+
+.videoItems {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4baf47;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.videoItems ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.videoItems ul li {
+  padding: 20px 40px;
+}
+
+.videoItems ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.videoSectionText {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.videoSectionText h2 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.videoButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+/* video container style end  */
+
+/* explore projects container start  */
+.exploreProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.exploreProjectsContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.exploreProjectsContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.exploreProjectsBoxes {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.exploreProjectsBoxes h3 {
+  margin-bottom: 20px;
+  padding: 0 18px;
+  color: #ffffff;
+}
+
+.exploreProjectsBoxFirst {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  background: url("../assets/images/exploreProjectImg1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* .exploreProjectsItems {
+  margin-bottom: 20px;
+  padding: 0 18px;
+  color: #ffffff;
+} */
+
+.exploreProjectsBoxSecond {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  background: url("../assets/images/exploreProjectImg2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.exploreProjectsBoxThird {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  background: url("../assets/images/exploreProjectImg3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.exploreProjectsBoxFourth {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  background: url("../assets/images/exploreProjectImg4.png");
+  background-position: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+/* explore projects container end  */
+
+/* testimonial container start  */
+.testimonialBackground {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #f8f7f0;
+}
+
+.testimonialContainer {
+  display: flex;
+  width: 100%;
+}
+
+.testimonialLeft {
+  width: 30%;
+  margin-top: 10px;
+}
+
+.testimonialLeft span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.testimonialLeft h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.testimonialLeft p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+  color: #878680;
+  line-height: 1.5em;
+}
+
+.testimonialBtn {
+  border: none;
+  color: white;
+  padding: 16px 45px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.testimonialBtn:hover {
+  background-color: #b99f57;
+}
+
+.testimonialRight {
+  width: 70%;
+}
+
+.cardBackground {
+  display: flex;
+  width: 80%;
+  height: 200px;
+  margin: 50px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.testimonialCard p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 1.5em;
+}
+
+.testimonialCardHeading {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.testimonialImage {
+  position: relative;
+}
+
+.testimonialProfile {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #eec044;
+  border-radius: 50%;
+  border-style: dashed;
+  background-color: #f8f7f0;
+}
+
+.testimonialActiveStatus {
+  position: absolute;
+  top: 85px;
+  left: 35px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #4baf47;
+}
+/* testimonial container end  */
+
+/* benefits container start  */
+.benefitsContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  gap: 20px;
+}
+.benefitsLeft {
+  width: 60%;
+}
+
+.benefitsImage {
+  width: 100%;
+}
+
+.benefitsImage img {
+  width: 100%;
+  height: 600px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.benefitsRight {
+  width: 40%;
+  /* border: 2px solid black; */
+}
+
+.benefitsRight span {
+  color: #eec044;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.benefitsRight h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #1f1e17;
+}
+
+.benfitsPara {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 1.5em;
+}
+
+.benefitsBoxes {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.benefitsTextsBox {
+  margin-top: 20px;
+}
+
+.benefitsIconsImage {
+  display: flex;
+  gap: 20px;
+}
+
+.benefitsText h3 {
+  /* font-size: 24px; */
+  font-weight: 800;
+}
+
+.benefitsText p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #878680;
+}
+
+.benefitsBtn {
+  border: none;
+  color: #ffffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.benefitsBtn:hover {
+  background-color: #b99f57;
+}
+/* benefits container end  */
+
+/* blogs container start  */
+.blogsContainer {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.blogsContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.blogsContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.blogsBoxes {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.blogsBoxItem {
+  width: 25%;
+  height: 450px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.blogsImage {
+  width: 100%;
+}
+
+.blogsImage img {
+  width: 100%;
+  height: 225px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blogsButton {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blogsBtn {
+  border: none;
+  color: #ffffff;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+}
+
+.blogsBtn:hover {
+  background-color: #b99f57;
+}
+
+.blogsFeedback {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.blogsFeedback span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #878680;
+}
+
+.blogsBoxItem h3 {
+  margin: 30px 60px;
+  text-align: center;
+}
+/* blogs container end  */
+
+/* background color container start  */
+.backgroundColor {
+  width: 100%;
+  height: 30vh;
+  margin-top: 100px;
+  background-color: #f8f7f0;
+}
+
+/* FOOTER SECTION STYLE START */
+.footerDouble {
+  width: 100%;
+  color: #a5a49a;
+  background-color: #24231d;
+}
+.footerContainer {
+  padding: 80px 130px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerColumns {
+  flex: 1;
+  margin: 25px;
+  min-width: 250px;
+}
+
+.footerLogo img {
+  width: 150px;
+}
+
+.footerColumns h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footerColumns p {
+  margin-top: 15px;
+}
+
+.footerColumns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerColumns ul li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.footerColumns ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footerColumns ul li a:hover {
+  color: #fff;
+}
+
+.footerColumns ul li span {
+  padding: 0 15px;
+}
+
+.footerColText {
+  margin-left: 60px;
+}
+
+.footerColText .colorWhite {
+  color: #ffffff;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footerColText .colorYellow {
+  color: #eec044;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footerSocialIcons {
+  margin-top: 15px;
+}
+
+.footerSocialIcons ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.footerSocialIcons ul li {
+  margin-right: 15px;
+  padding: 5px 10px;
+  background-color: #1f1e17;
+  border-radius: 100%;
+}
+
+.footerSocialIcons ul li a {
+  color: #ffffff;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.footerSocialIcons ul li a:hover {
+  color: #f39c12;
+}
+
+/* form input tag start  */
+.footerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.footerForm input {
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  flex: 1;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.inputIcon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  padding: 0px 18px;
+  top: 7px;
+  right: 0;
+  pointer-events: none;
+  background-color: #4baf47;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* .footerSecondContainer {
+  width: 100%;
+  color: white;
+  background-color: #1f1e17;
+} */
+
+.footerContent {
+  color: white;
+  background-color: #1f1e17;
+}
+
+.footerContent ul {
+  display: flex;
+  padding: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footerContent ul li {
+  text-decoration: none;
+}
+
+/* ABOUT LANDING PAGE START  */
+/* main container start  */
+.aboutBackground {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: url("../assets/images/aboutBgImg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.aboutBackground p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffffb2;
+}
+
+.aboutBackground h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* about intro container start  */
+.aboutIntroContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.aboutIntroLeft {
+  width: 50%;
+  position: relative;
+}
+
+.aboutIntroFirstImage {
+  width: 100%;
+}
+
+.aboutIntroFirstImage img {
+  position: absolute;
+  left: 90px;
+  width: 70%;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.aboutIntroSecondImage img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.aboutIntroRight {
+  width: 50%;
+  /* border: 2px solid black; */
+}
+
+.aboutIntroRight span {
+  color: #eec044;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.aboutIntroRight h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #1f1e17;
+}
+
+.aboutIntroRight h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #4baf47;
+  margin-top: 30px;
+}
+
+.aboutIntroRight p {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 2em;
+}
+
+.aboutIntroTextsBox {
+  margin-top: 30px;
+}
+
+.aboutIntroText {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.aboutIntrobtn {
+  border: none;
+  color: #ffffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.aboutIntrobtn:hover {
+  background-color: #b99f57;
+}
+/* about intro container end */
+
+/* video container style start  */
+.aboutVideoBackground {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  background: url("../assets/images/videoSectionImage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aboutVideoContainer {
+  width: 70%;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.aboutVideoText {
+  margin-top: 80px;
+  align-items: center;
+}
+
+.aboutVideoText h2 {
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.aboutVideoButton svg {
+  cursor: pointer;
+}
+.aboutVideoItems {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f1e17;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.aboutVideoItems ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.aboutVideoItems ul li {
+  padding: 20px 40px;
+}
+
+.aboutVideoItems ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* video container style end  */
+
+/* testimonial container start  */
+.aboutTestimonialBackground {
+  width: 100%;
+  height: 70vh;
+  /* display: flex;
+  align-items: center; */
+  background: url("../assets/images/aboutTestimonialBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aboutTestimonialContainer {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.aboutTestimonialContainer span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.aboutTestimonialContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.aboutTestimonialCards {
+  display: flex;
+  gap: 90px;
+  text-align: left;
+  justify-content: center;
+}
+
+.aboutTestimonialBox {
+  display: flex;
+  width: 40%;
+  height: 200px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.aboutTestimonialCard {
+  margin-left: 60px;
+  /* padding: 0 20px; */
+}
+
+.aboutTestimonialCard p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 1.3em;
+}
+
+.aboutTestimonialCardHeading {
+  width: 90%;
+  margin-top: 10px;
+  text-align: end;
+}
+
+.aboutTestimonialImage {
+  position: relative;
+}
+
+.aboutTestimonialProfile {
+  position: absolute;
+  right: 0;
+  transform: translate(20%, 0);
+  width: 110px;
+  height: 150px;
+}
+
+.aboutTestimonialProfile img {
+  width: 100%;
+  height: 140px;
+  border-radius: 10px;
+}
+
+.aboutTestimonialActiveStatus {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #4baf47;
+}
+/* testimonial container end  */
+
+/* explore projects container start  */
+.teamMembersContainer {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.teamMembersContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.teamMembersContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.teamMembersBoxes {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.teamMembersBoxFirst {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  justify-content: end;
+  background: url("../assets/images/teamMembersImage1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.teamMembersBoxSecond {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  justify-content: end;
+  background: url("../assets/images/teamMembersImage2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.teamMembersBoxThird {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  justify-content: end;
+  background: url("../assets/images/teamMembersImage3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.teamMemberText {
+  position: relative;
+  padding: 10px 40px;
+  color: black;
+  background: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.teamMemberText h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.teamMemberText span {
+  display: flex;
+  justify-content: end;
+  font-size: 16px;
+  font-weight: 500;
+  color: #878680;
+}
+
+.teamMemberIcon {
+  position: absolute;
+  left: 0;
+  transform: translate(-50%, 30%);
+}
+/* explore projects container end  */
+/* ABOUT LANDING PAGE END  */
+
+/* CONTACT LANDING PAGE STYLE  */
+/* main container start  */
+.contactBackground {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: url("../assets/images/aboutBgImg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.contactBackground p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffffb2;
+}
+
+.contactBackground h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.contactBoxesContainer {
+  margin-top: 100px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.contactBoxFirst {
+  width: 30%;
+  height: 180px;
+  padding: 40px 50px;
+  border-radius: 10px;
+  background-color: #4baf47;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.contactBoxFirst h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.contactBoxFirst p {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.contactBoxSecond {
+  width: 30%;
+  height: 180px;
+  padding: 40px 50px;
+  border-radius: 10px;
+  background-color: #c5ce38;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.contactBoxSecond h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.contactBoxSecond p {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.contactBoxThird {
+  width: 30%;
+  height: 180px;
+  padding: 40px 50px;
+  border-radius: 10px;
+  background-color: #eec044;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.contactBoxThird h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.contactBoxThird p {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+/* contact form container start  */
+.contactFormContainer {
+  width: 100%;
+  /* height: 80vh; */
+  display: flex;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.contactLeft {
+  width: 40%;
+}
+
+.contactLeft img {
+  width: 100%;
+  height: 610px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.contactRight {
+  padding: 80px 80px;
+  width: 60%;
+  border: 2px solod blue;
+  background: url("../assets/images/contactRightImage.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.contactRight p {
+  color: #eec044;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.contactRight h2 {
+  color: #1f1e17;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.contactForm {
+  margin-top: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+input[type="email"] {
+  width: 48%;
+  padding: 16px 20px;
+  border: 1px solid #ffffff;
+  outline: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+input[type="email"] {
+  margin-left: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 16px 20px;
+  border: 1px solid #ffffff;
+  outline: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  /* margin-bottom: 16px; */
+}
+
+.contactButton {
+  border: none;
+  color: white;
+  padding: 16px 35px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.contactButton:hover {
+  background-color: #378035;
+}

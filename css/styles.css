@@ -1919,6 +1919,7 @@ textarea {
   height: 400px;
   align-items: end;
   border-radius: 10px;
+  text-decoration: none;
   background: url("../assets/images/projectsImg1.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1931,6 +1932,7 @@ textarea {
   height: 400px;
   align-items: end;
   border-radius: 10px;
+  text-decoration: none;
   background: url("../assets/images/projectsImg2.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1943,6 +1945,7 @@ textarea {
   height: 400px;
   align-items: end;
   border-radius: 10px;
+  text-decoration: none;
   background: url("../assets/images/projectsImg3.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1972,6 +1975,7 @@ textarea {
   height: 400px;
   align-items: end;
   border-radius: 10px;
+  text-decoration: none;
   background: url("../assets/images/projectsImg4.png");
   background-position: center;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
@@ -1983,6 +1987,7 @@ textarea {
   height: 400px;
   align-items: end;
   border-radius: 10px;
+  text-decoration: none;
   background: url("../assets/images/projectsImg5.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1995,6 +2000,7 @@ textarea {
   height: 400px;
   align-items: end;
   border-radius: 10px;
+  text-decoration: none;
   background: url("../assets/images/projectsImg6.png");
   background-repeat: no-repeat;
   background-position: center center;

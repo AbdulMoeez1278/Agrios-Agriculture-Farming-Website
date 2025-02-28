@@ -2484,7 +2484,6 @@ textarea {
   font-weight: 700;
 }
 
-
 /* market leaders container start  */
 .marketLeadersBackground {
   height: 30vh;
@@ -2525,7 +2524,7 @@ textarea {
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  background-color: #EEC044;
+  background-color: #eec044;
   border-radius: 10px;
 }
 

@@ -610,11 +610,11 @@
 
   .marketLeadersBackground p {
     font-size: 22px;
-}
+  }
 
   .marketLeadersBackground h3 {
     font-size: 24px;
-}
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 481px TO 768px */
@@ -2750,7 +2750,7 @@
 
   .marketLeadersBackground p {
     font-size: 14px;
-}
+  }
 
   .marketLeadersBackground h3 {
     font-size: 16px;

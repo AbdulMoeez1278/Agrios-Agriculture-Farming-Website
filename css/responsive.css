@@ -570,6 +570,51 @@
   .servicesVideoBox {
     width: 30%;
   }
+
+  .servicesGrowthLeft {
+    width: 40%;
+  }
+
+  .servicesGrowthLeft img {
+    width: 90%;
+    height: 550px;
+  }
+
+  .servicesGrowthRight {
+    width: 60%;
+  }
+
+  .servicesGrowthRight p {
+    margin-top: 20px;
+  }
+
+  .growthBoxes {
+    margin-top: 30px;
+  }
+
+  .growthItemFirst {
+    padding: 10px 20px;
+  }
+
+  .growthItemSecond {
+    padding: 10px 10px;
+  }
+
+  .growthItemThird {
+    padding: 10px 30px;
+  }
+
+  .servicesGrowthIcon svg {
+    width: 50px;
+  }
+
+  .marketLeadersBackground p {
+    font-size: 22px;
+}
+
+  .marketLeadersBackground h3 {
+    font-size: 24px;
+}
 }
 
 /* MEDIA BREAKPOINT FROM 481px TO 768px */
@@ -1476,6 +1521,72 @@
 
   .servicesVideoBox {
     width: 80%;
+  }
+
+  .servicesGrowthContainer {
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .servicesGrowthLeft {
+    width: 80%;
+  }
+
+  .servicesGrowthLeft img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .servicesGrowthRight {
+    width: 80%;
+    text-align: center;
+  }
+
+  .servicesGrowthRight h2 {
+    font-size: 28px;
+  }
+
+  .servicesGrowthRight p {
+    margin-top: 10px;
+  }
+
+  .growthBoxes {
+    width: 100%;
+    margin-top: 30px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .growthItemFirst {
+    padding: 10px 20px;
+  }
+
+  .growthItemSecond {
+    padding: 10px 10px;
+  }
+
+  .growthItemThird {
+    padding: 10px 30px;
+  }
+
+  .servicesGrowthIcon svg {
+    width: 50px;
+  }
+
+  .marketLeadersContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .marketLeadersBackground h3 {
+    font-size: 24px;
+  }
+
+  .marketLeadersBtn {
+    padding: 15px 20px;
+    margin-top: 20px;
   }
 }
 
@@ -2556,6 +2667,98 @@
 
   .servicesVideoBox img {
     height: 220px;
+  }
+
+  .servicesGrowthContainer {
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .servicesGrowthLeft {
+    width: 80%;
+  }
+
+  .servicesGrowthLeft img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .servicesGrowthRight {
+    width: 80%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .servicesGrowthRight .growthPara {
+    font-size: 16px;
+  }
+
+  .servicesGrowthRight h2 {
+    font-size: 18px;
+  }
+
+  .servicesGrowthRight p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .growthBoxes {
+    width: 100%;
+    margin-top: 30px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .growthItemFirst {
+    padding: 10px 18px;
+  }
+
+  .growthItemFirst .servicesGrowthIconText {
+    font-size: 12px;
+  }
+
+  .growthItemSecond {
+    padding: 8px 12px;
+  }
+
+  .growthItemSecond .servicesGrowthIconText {
+    font-size: 12px;
+  }
+
+  .growthItemThird {
+    padding: 10px 25px;
+  }
+
+  .growthItemThird .servicesGrowthIconText {
+    font-size: 12px;
+  }
+
+  .servicesGrowthIcon svg {
+    width: 40px;
+  }
+
+  .marketLeadersBackground {
+    margin-top: 30px;
+  }
+
+  .marketLeadersContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .marketLeadersBackground p {
+    font-size: 14px;
+}
+
+  .marketLeadersBackground h3 {
+    font-size: 16px;
+  }
+
+  .marketLeadersBtn {
+    padding: 15px 10px;
+    margin-top: 20px;
   }
 
   .footerContainer {

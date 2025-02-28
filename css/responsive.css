@@ -566,6 +566,10 @@
   .servicesPageVideoContainer h2 {
     font-size: 36px;
   }
+
+  .servicesVideoBox {
+    width: 30%;
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 481px TO 768px */
@@ -1462,6 +1466,16 @@
   .servicesPageVideoButton svg {
     width: 60px;
     height: 60px;
+  }
+
+  .servicesVideoBoxes {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicesVideoBox {
+    width: 80%;
   }
 }
 
@@ -2479,7 +2493,7 @@
   }
 
   .servicesPageItems h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .servicesPageIcons svg {
@@ -2527,6 +2541,21 @@
   .servicesPageVideoButton svg {
     width: 50px;
     height: 50px;
+  }
+
+  .servicesVideoBoxes {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicesVideoBox {
+    width: 80%;
+    height: 280px;
+  }
+
+  .servicesVideoBox img {
+    height: 220px;
   }
 
   .footerContainer {

@@ -2178,3 +2178,186 @@ textarea {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 /* healthy projects container end  */
+/* HEALTHY FOOD LANDING PAGE END   */
+
+/* SERVICES LANDING PAGE START  */
+/* services container start  */
+.servicesPageBackground {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: url("../assets/images/aboutBgImg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.servicesPageBackground p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffffb2;
+}
+
+.servicesPageBackground h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.servicesPageContainer {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.servicesPageItemFirst {
+  display: flex;
+  width: 20%;
+  height: 300px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesPageImage1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.servicesPageItems {
+  position: relative;
+  margin: 20px 0;
+  padding: 10px 50px;
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+  background-color: #ffffff;
+}
+
+.servicesPageItems h5 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.servicesPageBtn {
+  border: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.servicesPageItemSecond {
+  display: flex;
+  width: 20%;
+  height: 300px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesPageImage2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.servicesPageItemThird {
+  display: flex;
+  width: 20%;
+  height: 300px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesPageImage3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.servicesPageItemFourth {
+  display: flex;
+  width: 20%;
+  height: 300px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesPageImage4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.servicesPageIcons {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #c5ce38;
+  border-radius: 7px;
+  left: 50%;
+  padding: 5px;
+  top: 0;
+}
+
+.servicesLogoBackground {
+  height: 30vh;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  background-color: #f8f7f0;
+}
+
+.servicesLogoContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.servicesLogoContainer img {
+  width: 15%;
+  height: auto;
+  margin: 10px;
+}
+/* services page video section start */
+/* video container style start  */
+.servicesPageVideoBackground {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background: url("../assets/images/videoSectionImage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.servicesPageVideoContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servicesPageVideoContainer h2 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.servicesPageVideoButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+/* video container style end  */
+/* services container end  */
+/* SERVICES LANDING PAGE END  */

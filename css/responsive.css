@@ -256,6 +256,10 @@
     height: 60vh;
     padding: 30px 30px;
   }
+
+  .servicesPageContainer {
+    flex-wrap: wrap;
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 769px TO 1057px */
@@ -544,6 +548,23 @@
   .blogsBoxItem h3 {
     margin: 20px 10px;
     text-align: center;
+  }
+
+  .servicesPageItems {
+    padding: 10px 20px;
+    top: 80px;
+  }
+
+  .servicesLogoBackground {
+    margin-top: 100px;
+  }
+
+  .servicesPageVideoBackground {
+    height: 60vh;
+  }
+
+  .servicesPageVideoContainer h2 {
+    font-size: 36px;
   }
 }
 
@@ -1383,6 +1404,65 @@
     width: 100%;
     background-size: cover;
   }
+
+  .servicesPageBackground {
+    height: 30vh;
+  }
+
+  .servicesPageBackground h1 {
+    font-size: 32px;
+  }
+
+  .servicesPageContainer {
+    gap: 30px;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .servicesPageItemFirst {
+    width: 80%;
+    background-size: cover;
+  }
+  .servicesPageItems {
+    padding: 10px 50px;
+    top: 30px;
+  }
+
+  .servicesPageIcons svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .servicesPageItemSecond {
+    width: 80%;
+    background-size: cover;
+  }
+  .servicesPageItemThird {
+    width: 80%;
+    background-size: cover;
+  }
+  .servicesPageItemFourth {
+    width: 80%;
+    background-size: cover;
+  }
+
+  .servicesLogoBackground {
+    height: 20vh;
+    margin-top: 30px;
+  }
+
+  .servicesPageVideoBackground {
+    height: 50vh;
+  }
+
+  .servicesPageVideoContainer h2 {
+    font-size: 32px;
+  }
+
+  .servicesPageVideoButton svg {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 320px TO 480px */
@@ -1879,10 +1959,9 @@
     margin-top: 30px;
   }
 
-  .footerContainer {
+  /* .footerContainer {
     padding: 80px 30px;
     justify-content: center;
-    /* text-align: center; */
   }
 
   .footerColumns {
@@ -1901,9 +1980,6 @@
     justify-content: center;
   }
 
-  /* .footerColumns ul li {
-    justify-content: center;
-  } */
   .footerColText {
     margin-left: 0;
   }
@@ -1914,7 +1990,7 @@
 
   .footerContent ul li {
     font-size: 14px;
-  }
+  } */
 
   .aboutBackground {
     height: 30vh;
@@ -2288,7 +2364,7 @@
 
   .healthyFoodImage {
     margin-top: 40px;
-}
+  }
 
   .healthyFoodContainer {
     margin-top: 30px;
@@ -2303,13 +2379,13 @@
   .healthyFoodLeft h2 {
     font-size: 18px;
     font-weight: 800;
-}
+  }
 
-.healthyFoodLeft p {
-  font-size: 14px;
-  margin-top: 15px;
-  line-height: 1.3em;
-}
+  .healthyFoodLeft p {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.3em;
+  }
 
   .healthyFoodLeft .foodPara {
     margin: 10px 0;
@@ -2349,7 +2425,7 @@
 
   .healthyFoodProjectsBoxes h3 {
     font-size: 16px;
-}
+  }
 
   .healthyFoodProjectsBoxFirst {
     width: 100%;
@@ -2373,6 +2449,84 @@
     width: 100%;
     height: 300px;
     background-size: cover;
+  }
+
+  .servicesPageBackground {
+    height: 30vh;
+  }
+
+  .servicesPageBackground p {
+    font-size: 12px;
+  }
+
+  .servicesPageBackground h1 {
+    font-size: 24px;
+  }
+
+  .servicesPageContainer {
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .servicesPageItemFirst {
+    width: 80%;
+    height: 250px;
+    background-size: cover;
+  }
+  .servicesPageItems {
+    padding: 4px 50px;
+    top: 30px;
+  }
+
+  .servicesPageItems h5 {
+    font-size: 16px;
+  }
+
+  .servicesPageIcons svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .servicesPageBtn {
+    padding: 8px 10px;
+  }
+
+  .servicesPageItemSecond {
+    width: 80%;
+    height: 250px;
+    background-size: cover;
+  }
+  .servicesPageItemThird {
+    width: 80%;
+    height: 250px;
+    background-size: cover;
+  }
+  .servicesPageItemFourth {
+    width: 80%;
+    height: 250px;
+    background-size: cover;
+  }
+
+  .servicesLogoBackground {
+    height: 20vh;
+    margin-top: 30px;
+  }
+
+  .servicesPageVideoBackground {
+    height: 40vh;
+  }
+
+  .servicesPageVideoContainer {
+    justify-content: space-around;
+  }
+
+  .servicesPageVideoContainer h2 {
+    font-size: 18px;
+  }
+
+  .servicesPageVideoButton svg {
+    width: 50px;
+    height: 50px;
   }
 
   .footerContainer {

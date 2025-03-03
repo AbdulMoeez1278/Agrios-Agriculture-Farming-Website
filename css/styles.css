@@ -247,6 +247,7 @@
 .navItems ul li:hover .dropdownContentServices {
   display: block;
 }
+
 /* services dropdown end  */
 
 /* projects dropdown start  */
@@ -310,6 +311,7 @@
 .navItems ul li:hover .dropdownContentNews {
   display: block;
 }
+
 /* news dropdown end  */
 
 /* shop dropdown start  */
@@ -341,6 +343,7 @@
 .navItems ul li:hover .dropdownContentShop {
   display: block;
 }
+
 /* shop dropdown end  */
 
 .secondHeadIcons {
@@ -355,6 +358,7 @@
 .cartIcon {
   cursor: pointer;
 }
+
 /* second header with nav items end  */
 
 /* main section start  */
@@ -561,6 +565,7 @@
 .introbtn:hover {
   background-color: #b99f57;
 }
+
 /* introduction section end */
 
 /* services container start  */
@@ -685,6 +690,7 @@
   padding: 5px;
   top: 0;
 }
+
 /* services container end  */
 
 /* video container style start  */
@@ -748,6 +754,7 @@
   align-items: center;
   cursor: pointer;
 }
+
 /* video container style end  */
 
 /* explore projects container start  */
@@ -838,6 +845,7 @@
   background-position: center;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
+
 /* explore projects container end  */
 
 /* testimonial container start  */
@@ -948,6 +956,7 @@
   border-radius: 50%;
   background-color: #4baf47;
 }
+
 /* testimonial container end  */
 
 /* benefits container start  */
@@ -957,6 +966,7 @@
   margin-top: 100px;
   gap: 20px;
 }
+
 .benefitsLeft {
   width: 60%;
 }
@@ -1037,6 +1047,7 @@
 .benefitsBtn:hover {
   background-color: #b99f57;
 }
+
 /* benefits container end  */
 
 /* blogs container start  */
@@ -1126,6 +1137,7 @@
   margin: 30px 60px;
   text-align: center;
 }
+
 /* blogs container end  */
 
 /* background color container start  */
@@ -1142,6 +1154,7 @@
   color: #a5a49a;
   background-color: #24231d;
 }
+
 .footerContainer {
   padding: 80px 130px;
   display: flex;
@@ -1245,12 +1258,14 @@
   align-items: center;
   margin-top: 20px;
 }
+
 .inputContainer {
   display: flex;
   align-items: center;
   position: relative;
   width: 100%;
 }
+
 .footerForm input {
   padding: 15px 10px;
   border: 1px solid #ccc;
@@ -1260,6 +1275,7 @@
   outline: none;
   border: none;
 }
+
 .inputIcon {
   position: absolute;
   width: 50px;
@@ -1414,6 +1430,7 @@
 .aboutIntrobtn:hover {
   background-color: #b99f57;
 }
+
 /* about intro container end */
 
 /* video container style start  */
@@ -1447,6 +1464,7 @@
 .aboutVideoButton svg {
   cursor: pointer;
 }
+
 .aboutVideoItems {
   padding: 30px;
   display: flex;
@@ -1472,6 +1490,7 @@
   font-size: 18px;
   font-weight: 500;
 }
+
 /* video container style end  */
 
 /* testimonial container start  */
@@ -1567,6 +1586,7 @@
   border-radius: 50%;
   background-color: #4baf47;
 }
+
 /* testimonial container end  */
 
 /* explore projects container start  */
@@ -1660,6 +1680,7 @@
   left: 0;
   transform: translate(-50%, 30%);
 }
+
 /* explore projects container end  */
 /* ABOUT LANDING PAGE END  */
 
@@ -2177,6 +2198,7 @@ textarea {
   background-position: center;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
+
 /* healthy projects container end  */
 /* HEALTHY FOOD LANDING PAGE END   */
 
@@ -2330,6 +2352,7 @@ textarea {
   height: auto;
   margin: 10px;
 }
+
 /* services page video section start */
 /* video container style start  */
 .servicesPageVideoBackground {
@@ -2361,6 +2384,7 @@ textarea {
   align-items: center;
   cursor: pointer;
 }
+
 /* video container style end  */
 
 /* services video boxes section start  */
@@ -2392,6 +2416,7 @@ textarea {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
 /* services video boxes section end  */
 
 /* services page growth section start  */
@@ -2531,6 +2556,7 @@ textarea {
 .marketLeadersBtn:hover {
   background-color: #d8b34c;
 }
+
 /* SERVICES LANDING PAGE END  */
 
 /* SERVICES - AGRICULTURE PRODUCTS LANDING PAGE START  */
@@ -2577,6 +2603,7 @@ textarea {
   font-weight: 800;
   transition: 0.3s;
 }
+
 .agricultureProductsLeftItems ul li a:hover {
   color: #1f1f1f;
 }
@@ -2708,3 +2735,149 @@ textarea {
 
 /* agriculture products container end  */
 /* SERVICES - AGRICULTURE PRODUCTS LANDING PAGE START  */
+
+/* NEWS LANDING PAGE START  */
+/* news container start  */
+.newsPageBackground {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: url("../assets/images/aboutBgImg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.newsPageBackground p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffffb2;
+}
+
+.newsPageBackground h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.newsContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+
+.newsContainerLeft {
+  width: 70%;
+}
+
+.newsLeftItemsFirst {
+  position: relative;
+}
+
+.newsLeftImage {
+  width: 100%;
+}
+
+.newsLeftImage img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.newsLeftButton {
+  position: absolute;
+  left: 2%;
+  bottom: 35%;
+}
+
+.newsButton {
+  border: none;
+  color: #ffffff;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+}
+
+.newsButton:hover {
+  background-color: #b99f57;
+}
+
+.newsFeedback {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.newsFeedback span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #878680;
+}
+
+.newsLeftItemsFirst h2 {
+  margin-top: 10px;
+}
+
+.newsLeftItemsFirst p {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 1.5em;
+}
+
+.newsLeftItemsFirst .newsPara {
+  color: #1f1e17;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+/* news left second item start  */
+.newsLeftItemsSecond {
+  margin: 50px auto;
+  position: relative;
+}
+
+.newsLeftItemsSecond h2 {
+  margin-top: 10px;
+}
+
+.newsLeftItemsSecond p {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 1.5em;
+}
+
+.newsLeftItemsSecond .newsPara {
+  color: #1f1e17;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+/* news left third item start  */
+.newsLeftItemsThird {
+  margin: 50px auto;
+  position: relative;
+}
+
+.newsLeftItemsThird h2 {
+  margin-top: 10px;
+}
+
+.newsLeftItemsThird p {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 1.5em;
+}
+
+.newsLeftItemsThird .newsPara {
+  color: #1f1e17;
+  margin-top: 30px;
+  font-weight: 600;
+}

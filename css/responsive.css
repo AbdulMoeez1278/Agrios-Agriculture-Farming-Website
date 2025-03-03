@@ -615,6 +615,19 @@
   .marketLeadersBackground h3 {
     font-size: 24px;
   }
+
+  .agricultureProductsLeftFirst {
+    padding: 30px 20px;
+  }
+
+  .agricultureProductsLeftSecond {
+    padding: 40px 2px;
+    margin-top: 20px;
+  }
+
+  .agricultureProductsRight h2 {
+    font-size: 32px;
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 481px TO 768px */
@@ -1587,6 +1600,44 @@
   .marketLeadersBtn {
     padding: 15px 20px;
     margin-top: 20px;
+  }
+
+  .agricultureProductsContainer {
+    margin: 90px auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .agricultureProductsLeft {
+    width: 100%;
+  }
+
+  .agricultureProductsLeftFirst {
+    width: 100%;
+    text-align: center;
+  }
+
+  .agricultureProductsLeftItems {
+    margin-top: 10px;
+  }
+
+  .agricultureProductsLeftSecond {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .agricultureProductsRight {
+    width: 100%;
+    text-align: center;
+  }
+
+  .agricultureProductsRight h2 {
+    font-size: 32px;
+  }
+
+  .agricultureProductsBoxItem .BoxSecondText {
+    /* margin-top: 10px; */
+    line-height: 1.2em;
   }
 }
 
@@ -2760,6 +2811,73 @@
     padding: 15px 10px;
     margin-top: 20px;
   }
+
+  .agricultureProductsContainer {
+    margin: 50px auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .agricultureProductsLeft {
+    width: 100%;
+  }
+
+  .agricultureProductsLeftFirst {
+    width: 100%;
+    text-align: center;
+  }
+
+  .agricultureProductsLeft h4 {
+    font-size: 18px;
+}
+
+  .agricultureProductsLeftItems {
+    margin-top: 10px;
+  }
+
+  .agricultureProductsLeftSecond {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .agricultureProductsRight {
+    width: 100%;
+    text-align: center;
+  }
+
+  .agricultureProductsRight h2 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .agricultureProductsRight p {
+    font-size: 14px;
+  }
+
+  .agricultureProductsRghtBoxes {
+    flex-direction: column;
+  }
+
+  .agricultureProductsBoxItem h4 {
+    font-size: 18px;
+  }
+
+  .agricultureProductsBoxItem .BoxSecondText {
+    font-size: 14px;
+  }
+
+  .agricultureProductsAccordian {
+    margin-top: 30px;
+  }
+
+  .accordianItem h4 {
+    font-size: 14px;
+  }
+
+  .accordianItem svg {
+    width: 20px;
+    height: 30px;
+}
 
   .footerContainer {
     padding: 80px 70px;

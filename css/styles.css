@@ -3064,3 +3064,92 @@ textarea {
 /* NEWS LANDING PAGE END  */
 
 /* NEWS GRID LANDING PAGE START  */
+/* news grid container start  */
+.newsGridContainer {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 120px auto;
+}
+
+.newsGridContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.newsGridContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.newsGridBoxes {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.newsGridBoxItem {
+  width: 25%;
+  height: 450px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.newsGridImage {
+  width: 100%;
+}
+
+.newsGridImage img {
+  width: 100%;
+  height: 225px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.newsGridButton {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.newsGridBtn {
+  border: none;
+  color: #ffffff;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+}
+
+.newsGridBtn:hover {
+  background-color: #b99f57;
+}
+
+.newsGridFeedback {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.newsGridFeedback span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #878680;
+}
+
+.newsGridBoxItem h3 {
+  margin: 30px 60px;
+  text-align: center;
+}
+
+/* news grid container end  */

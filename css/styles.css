@@ -2835,6 +2835,7 @@ textarea {
   color: #1f1e17;
   margin-top: 30px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* news left second item start  */
@@ -2858,6 +2859,7 @@ textarea {
   color: #1f1e17;
   margin-top: 30px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* news left third item start  */
@@ -2881,6 +2883,7 @@ textarea {
   color: #1f1e17;
   margin-top: 30px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .newsPagination {
@@ -2968,11 +2971,6 @@ textarea {
   font-size: 14px;
   font-weight: 800;
 }
-
-/* .secondPostBg {
-  background-color: #ffffff;
-  border-radius: 10px;
-} */
 
 .latestPostSecond {
   display: flex;

@@ -628,6 +628,44 @@
   .agricultureProductsRight h2 {
     font-size: 32px;
   }
+
+  .newsContainer {
+    margin-top: 80px;
+    /* flex-direction: column; */
+  }
+
+  .newsContainerLeft {
+    width: 60%;
+    text-align: center;
+  }
+
+  .newsLeftButton {
+    bottom: 60%;
+  }
+  .newsFeedback {
+    justify-content: center;
+  }
+
+  .newsContainerRight {
+    width: 40%;
+  }
+
+  .latestPosts {
+    padding: 40px 10px;
+  }
+
+  .postFirstImage {
+    width: 30%;
+  }
+
+  .postFirstImage img {
+    width: 60px;
+    height: 70px;
+  }
+
+  .postFirstText .firstPostHeading {
+    margin-top: 0px;
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 481px TO 768px */
@@ -1638,6 +1676,52 @@
   .agricultureProductsBoxItem .BoxSecondText {
     /* margin-top: 10px; */
     line-height: 1.2em;
+  }
+
+  .newsPageBackground {
+    height: 30vh;
+  }
+
+  .newsPageBackground h1 {
+    font-size: 32px;
+  }
+
+  .newsContainer {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .newsContainerLeft {
+    width: 100%;
+    text-align: center;
+  }
+
+  .newsLeftButton {
+    bottom: 60%;
+  }
+  .newsFeedback {
+    justify-content: center;
+  }
+
+  .newsContainerRight {
+    width: 100%;
+  }
+
+  .latestPosts {
+    padding: 40px 10px;
+  }
+
+  .postFirstImage {
+    width: 30%;
+  }
+
+  .postFirstImage img {
+    width: 60px;
+    height: 70px;
+  }
+
+  .postFirstText .firstPostHeading {
+    margin-top: 0px;
   }
 }
 
@@ -2878,6 +2962,130 @@
     width: 20px;
     height: 30px;
   }
+
+  .newsPageBackground {
+    height: 30vh;
+  }
+
+  .newsPageBackground p {
+    font-size: 12px;
+  }
+
+  .newsPageBackground h1 {
+    font-size: 22px;
+  }
+
+  .newsContainer {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .newsContainerLeft {
+    width: 100%;
+    text-align: center;
+  }
+
+  .newsLeftButton {
+    bottom: 68%;
+  }
+  .newsButton {
+    padding: 8px 8px;
+  }
+
+  .newsFeedback {
+    justify-content: center;
+  }
+
+  .newsLeftItemsFirst h2 {
+    font-size: 16px;
+  }
+
+  .newsLeftItemsFirst p {
+    font-size: 14px;
+  }
+
+  .newsLeftItemsFirst .newsPara {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .newsLeftItemsSecond {
+    margin: 30px auto;
+  }
+
+  .newsLeftItemsSecond h2 {
+    font-size: 16px;
+  }
+
+  .newsLeftItemsSecond p {
+    font-size: 14px;
+  }
+
+  .newsLeftItemsSecond .newsPara {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .newsLeftItemsThird {
+    margin: 30px auto;
+  }
+
+  .newsLeftItemsThird h2 {
+    font-size: 16px;
+  }
+
+  .newsLeftItemsThird p {
+    font-size: 14px;
+  }
+
+  .newsLeftItemsThird .newsPara {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .newsPagination a {
+    padding: 6px 12px;
+  }
+
+  .newsContainerRight {
+    width: 100%;
+  }
+
+  .newRightSearchBar {
+    padding: 16px 0;
+  }
+
+  .newRightSearchBar .newsRightSearchIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .latestPosts {
+    padding: 20px 10px;
+  }
+
+  .postFirstImage {
+    width: 30%;
+  }
+
+  .postFirstImage img {
+    width: 60px;
+    height: 70px;
+  }
+
+  .postFirstText .firstPostHeading {
+    margin-top: 0px;
+  }
+
+  .newsRightSecond {
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+.newsRightThird {
+  margin-top: 20px;
+  padding: 20px 40px;
+}
 
   .footerContainer {
     padding: 80px 70px;

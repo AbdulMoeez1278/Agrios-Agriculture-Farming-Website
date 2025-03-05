@@ -3571,7 +3571,15 @@ input[type="checkbox"] {
   color: #878680;
 }
 
-.latestNewsForm p {
+.shopItemsForm {
+  margin-top: 60px;
+}
+
+.shopItemsForm p {
   margin: 10px 0;
+  color: #878680;
+}
+
+.shopItemsForm label {
   color: #878680;
 }

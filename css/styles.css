@@ -3513,3 +3513,65 @@ input[type="checkbox"] {
   padding: 5px;
   transition: 0.3s;
 }
+
+.shopItemsDetails {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.shopItemsDetails h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.shopItemsDetails p {
+  color: #878680;
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 1.6em;
+}
+
+.shopItemsReviews {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.shopItemsReviews .reviewText {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.customerProfile {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.customerImage {
+  width: 20%;
+}
+
+.customerImage img {
+  border-radius: 50%;
+}
+
+.customerName {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.shopItemsReviews .customerDate {
+  color: #4baf47;
+  font-weight: 600;
+}
+
+.customerDetails .customerReview {
+  margin-top: 10px;
+  color: #878680;
+}
+
+.latestNewsForm p {
+  margin: 10px 0;
+  color: #878680;
+}

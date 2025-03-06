@@ -3844,3 +3844,545 @@ select:focus {
   background-color: #4baf47;
   border: 1px solid #4baf47;
 }
+/* shop container end  */
+/* SHOP LANDING PAGE END  */
+
+/* HOME 2 LANDING PAGE START  */
+/* home 2 hero container start  */
+/* main section start  */
+.home2HeroBackground {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("../assets/images/home2HeroImage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* hero section start  */
+.home2HeroContainer {
+  width: 100%;
+  color: white;
+}
+
+.circleHom2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home2HeroText h1 {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.home2HeroText h1 span {
+  font-size: 95px;
+  color: #eec044;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.home2HeroButton {
+  margin-top: 30px;
+}
+
+.home2HeroBtn {
+  border: none;
+  color: #ffffff;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+}
+
+.heroBtn:hover {
+  background-color: #b99f57;
+}
+
+/* hero boxes start  */
+.home2HeroBoxes {
+  width: 100%;
+  padding: 30px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 80px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #ffffff;
+  justify-content: space-around;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.home2HeroBox {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home2HeroBox .home2HeroBold {
+  margin-top: 10px;
+  color: #1f1e17;
+  font-weight: 800;
+}
+
+.home2HeroBox p {
+  color: #878680;
+  font-weight: 500;
+}
+
+.latestProductsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.latestProductsContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.latestProductsContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+/* home 2 latest products boxes  */
+.latestProductsBoxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.latestProductsCard {
+  width: 30%;
+
+  text-align: center;
+}
+
+.latestProductsCard img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.latestProductsCard .latestProductsText {
+  color: #222222;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.latestProductsCard span {
+  color: #4baf47;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.latestProductsCard .latestProductsDollars {
+  color: #eec044;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.organicFoodContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  position: relative;
+  top: 70px;
+}
+
+.organicFoodCardFirst {
+  width: 45%;
+  padding: 40px 50px;
+  height: 300px;
+  border-radius: 10px;
+  background: url("../assets/images/home2OrganicImage1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.organicFoodCardFirst p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.organicFoodCardFirst h2 {
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 400;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.organicFoodButton {
+  margin-top: 20px;
+}
+
+.organicFoodBtn {
+  border: none;
+  color: black;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.organicFoodBtn:hover {
+  color: #ffffff;
+  background-color: #5a574f;
+}
+
+.organicFoodCardSecond {
+  width: 45%;
+  padding: 40px 50px;
+  height: 300px;
+  border-radius: 10px;
+  background: url("../assets/images/home2OrganicImage2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.organicFoodCardSecond p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.organicFoodCardSecond h2 {
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 400;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.eatOrganicBackground {
+  height: 70vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: url("../assets/images/organicBgImage.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.eatOrganicContainer {
+  margin-top: 60px;
+}
+
+.eatOrganicContainer h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.eatOrganicButton {
+  margin-top: 60px;
+}
+
+.eatOrganicBtn {
+  border: none;
+  color: #ffffff;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+}
+
+.eatOrganicBtn:hover {
+  background-color: #b99f57;
+}
+
+/* special offers containeir start  */
+.specialOffersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.specialOffersContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.specialOffersContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+/* special offers boxes start */
+.specialOffersBoxes {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialOffersCard {
+  width: 20%;
+  /* align-items: center; */
+}
+
+.specialOffersCard img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.specialOffersPara {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.specialOffersCard .specialOffersText {
+  color: #222222;
+  font-size: 22px;
+  font-weight: 800;
+  /* margin-top: 20px; */
+  align-items: center;
+}
+
+.specialOffersCard span {
+  color: #4baf47;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.specialOffersCard .specialOffersDollars {
+  color: #eec044;
+  font-size: 14px;
+  font-weight: 400;
+  /* margin-top: 20px; */
+  /* font-family: "Poppins", sans-serif; */
+}
+
+/* special offers container end  */
+
+/* quality products container start  */
+.qualityProductsContainer {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 120px auto;
+}
+
+.qualityProductsLeft {
+  width: 50%;
+}
+
+.qualityProductsLeft img {
+  width: 100%;
+  height: 500px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.qualityProductsRight {
+  width: 50%;
+}
+
+.qualityProductsRight span {
+  color: #eec044;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.qualityProductsRight h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #1f1e17;
+}
+
+.qualityProductsRight p {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #878680;
+  line-height: 2em;
+}
+
+.qualityProductsItems {
+  margin-top: 30px;
+}
+
+.qualityProductsBox {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.qualityProductsBox .qualityHeading {
+  color: #1f1e17;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 0;
+}
+
+.qualityProductsText .qualityPara {
+  color: #878680;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.qualityProductsbutton {
+  margin-top: 40px;
+}
+
+.qualityProductsbtn {
+  border: none;
+  color: #ffffff;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 4px;
+}
+
+.qualityProductsbtn:hover {
+  background-color: #b99f57;
+}
+/* quality products container end  */
+
+/* testimonial container start  */
+.home2TestimonialBackground {
+  height: 70vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: url("../assets/images/home2TestimonialBgImage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home2TestimonialContainer {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.home2TestimonialContainer span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.home2TestimonialContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.home2TestimonialCards {
+  display: flex;
+  gap: 90px;
+  text-align: left;
+  justify-content: center;
+}
+
+.home2TestimonialBoxFirst {
+  display: flex;
+  width: 40%;
+  height: 300px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/home2TestimonialImage2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home2TestimonialBoxSecond {
+  display: flex;
+  width: 40%;
+  height: 300px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/home2TestimonialImage3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home2TestimonialCard {
+  margin-left: 60px;
+}
+
+.home2TestimonialCardHeading {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  color: #ffffff;
+}
+
+.home2TestimonialImage {
+  position: relative;
+}
+
+.home2TestimonialProfile {
+  position: absolute;
+  right: 0;
+  transform: translate(30%, 40%);
+  width: 150px;
+  height: 110px;
+}
+
+.home2TestimonialProfile img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.home2TestimonialActiveStatus {
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4baf47;
+}

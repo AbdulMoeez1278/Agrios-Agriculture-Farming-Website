@@ -316,6 +316,18 @@
     font-size: 18px;
     font-weight: 600;
   }
+  .shopBoxCard {
+    text-align: center;
+  }
+
+  .cardText {
+    flex-direction: column-reverse;
+    font-size: 18px;
+  }
+
+  .cardText svg {
+    transform: translate(40%, 0);
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 769px TO 1057px */
@@ -761,6 +773,37 @@
 
   .latestNewsRight {
     width: 40%;
+  }
+
+  .shopContainer {
+    gap: 20px;
+    margin: 80px auto;
+  }
+
+  .shopPriceProgrss {
+    padding: 20px 20px;
+    margin-top: 20px;
+  }
+
+  .progressBar ul li {
+    margin: 0 0px;
+  }
+
+  .progressBar .step::after {
+    width: 100px;
+    height: 5px;
+    right: 0px;
+    left: 25px;
+  }
+  .progressBar .second::after {
+    width: 0;
+    height: 0;
+  }
+
+  .shopPrice {
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 20px;
   }
 }
 
@@ -1996,6 +2039,69 @@
   .shopItemsForm {
     margin-top: 30px;
     text-align: center;
+  }
+
+  .shopContainer {
+    flex-direction: column;
+    gap: 20px;
+    margin: 80px auto;
+  }
+
+  .shopContainerLeft {
+    width: 100%;
+  }
+
+  .shopContainerRight {
+    width: 100%;
+  }
+
+  .shopPriceProgrss {
+    padding: 20px 20px;
+    margin-top: 20px;
+  }
+
+  .progressBar ul li {
+    margin: 0 0px;
+  }
+
+  .progressBar .step::after {
+    width: 100px;
+    height: 5px;
+    right: 0px;
+    left: 25px;
+  }
+  .progressBar .second::after {
+    width: 0;
+    height: 0;
+  }
+
+  .shopPrice {
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .shopRightBoxes {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .shopRightTop p {
+    font-size: 16px;
+  }
+
+  .cardText {
+    flex-direction: column-reverse;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .cardText svg {
+    transform: translate(40%, 0);
+  }
+
+  .shopBoxCard span {
+    font-size: 14px;
   }
 }
 
@@ -3575,6 +3681,102 @@
     font-size: 20px;
   }
   .shopItemsForm label {
+    font-size: 14px;
+  }
+
+  .shopContainer {
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px auto;
+  }
+
+  .shopContainerLeft {
+    width: 100%;
+  }
+
+  .shopContainerRight {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .shopPriceProgrss {
+    padding: 30px 30px;
+    margin-top: 10px;
+  }
+  .shopPriceProgrss h3 {
+    font-size: 16px;
+  }
+
+  .progressBar ul li {
+    margin: 0 0px;
+  }
+
+  .progressBar ul li .step {
+    border: 1px solid #1e1e1e;
+  }
+
+  .progressBar .step::after {
+    width: 100px;
+    height: 5px;
+    right: 0px;
+    left: 25px;
+  }
+  .progressBar .second::after {
+    width: 0;
+    height: 0;
+  }
+
+  .shopPrice {
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .shopCategories {
+    margin-top: 20px;
+    padding: 30px 30px;
+  }
+
+  .shopCategories h4 {
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  .shopRightTop {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .shopRightBoxes {
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .shopBoxCard {
+    width: 100%;
+  }
+
+  .shopBoxCard img {
+    height: 250px;
+  }
+  /* transform="translate(40.890015)" */
+  .shopRightTop p {
+    font-size: 16px;
+  }
+
+  .cardText {
+    flex-direction: column-reverse;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .cardText svg {
+    transform: translate(40%, 0);
+  }
+
+  .shopBoxCard span {
     font-size: 14px;
   }
 

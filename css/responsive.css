@@ -789,6 +789,13 @@
     margin: 0 0px;
   }
 
+  .shopProgressBar .shopItems li {
+    margin: 0 20px;
+  }
+  .shopProgressBar .step::after {
+    width: 145px;
+  }
+
   .progressBar .step::after {
     width: 100px;
     height: 5px;
@@ -2064,12 +2071,20 @@
     margin: 0 0px;
   }
 
+  .shopProgressBar .shopItems li {
+    margin: 0 50px;
+  }
+  .shopProgressBar .step::after {
+    width: 195px;
+  }
+
   .progressBar .step::after {
     width: 100px;
     height: 5px;
     right: 0px;
     left: 25px;
   }
+
   .progressBar .second::after {
     width: 0;
     height: 0;
@@ -3713,6 +3728,13 @@
 
   .progressBar ul li .step {
     border: 1px solid #1e1e1e;
+  }
+
+  .shopProgressBar .shopItems li {
+    margin: 0 20px;
+  }
+  .shopProgressBar .step::after {
+    width: 145px;
   }
 
   .progressBar .step::after {

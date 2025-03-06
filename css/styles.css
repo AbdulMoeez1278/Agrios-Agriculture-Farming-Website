@@ -3601,7 +3601,7 @@ input[type="checkbox"] {
   width: 30%;
 }
 
-.shopContainerLeft input[type="text"] {
+.shopContainerLeft input {
   width: 100%;
   border: none;
   margin-top: 0;
@@ -3625,7 +3625,7 @@ input[type="checkbox"] {
 }
 
 /* progress bar start  */
-.progressBar {
+.shopProgressBar {
   width: 100%;
   margin-top: 10px;
   display: flex;
@@ -3634,25 +3634,25 @@ input[type="checkbox"] {
   flex-direction: column;
 }
 
-.progressBar ul {
+.shopProgressBar .shopItems {
   display: flex;
 }
 
-.progressBar ul li {
+.shopProgressBar .shopItems li {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 70px;
+  margin: 0 50px;
 }
 
-.progressBar ul li .icons {
+.shopProgressBar .shopItems li .icons {
   font-size: 25px;
   margin: 0 60px;
 }
 
-.progressBar ul li .step {
+.shopProgressBar .shopItems li .step {
   height: 30px;
   width: 30px;
   border: 3px solid #1e1e1e;
@@ -3666,22 +3666,22 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-.progressBar .step::after {
+.shopProgressBar .step::after {
   content: "";
   position: absolute;
-  width: 235px;
+  width: 220px;
   height: 5px;
   background-color: #eec044;
   right: 25px;
   z-index: -1;
 }
 
-.progressBar .first::after {
+.shopProgressBar .first::after {
   width: 0;
   height: 0;
 }
 
-.progressBar ul li .step p {
+.shopProgressBar .shopItems li .step p {
   font-size: 18px;
 }
 
@@ -3754,7 +3754,7 @@ input[type="checkbox"] {
   color: #1f1f1f;
 }
 
-.shopListItems {
+.shopCategoriesList {
   display: flex;
   cursor: pointer;
   align-items: center;

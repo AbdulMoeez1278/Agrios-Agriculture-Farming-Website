@@ -3847,10 +3847,10 @@ select:focus {
 /* shop container end  */
 /* SHOP LANDING PAGE END  */
 
-/* HOME 2 LANDING PAGE START  */
-/* home 2 hero container start  */
+/* HOME 3 LANDING PAGE START  */
+/* home 3 hero container start  */
 /* main section start  */
-.home2HeroBackground {
+.home3HeroBackground {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -3860,33 +3860,33 @@ select:focus {
 }
 
 /* hero section start  */
-.home2HeroContainer {
+.home3HeroContainer {
   width: 100%;
   color: white;
 }
 
-.circleHom2 {
+.circleHome3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.home2HeroText h1 {
+.home3HeroText h1 {
   font-size: 80px;
   font-weight: 800;
 }
 
-.home2HeroText h1 span {
+.home3HeroText h1 span {
   font-size: 95px;
   color: #eec044;
   font-family: "Covered By Your Grace", serif;
 }
 
-.home2HeroButton {
+.home3HeroButton {
   margin-top: 30px;
 }
 
-.home2HeroBtn {
+.home3HeroBtn {
   border: none;
   color: #ffffff;
   padding: 15px 40px;
@@ -3898,12 +3898,12 @@ select:focus {
   border-radius: 10px;
 }
 
-.heroBtn:hover {
+.home3HeroBtn:hover {
   background-color: #b99f57;
 }
 
 /* hero boxes start  */
-.home2HeroBoxes {
+.home3HeroBoxes {
   width: 100%;
   padding: 30px 60px;
   display: flex;
@@ -3917,20 +3917,20 @@ select:focus {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.home2HeroBox {
+.home3HeroBox {
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
 }
 
-.home2HeroBox .home2HeroBold {
+.home3HeroBox .home3HeroBold {
   margin-top: 10px;
   color: #1f1e17;
   font-weight: 800;
 }
 
-.home2HeroBox p {
+.home3HeroBox p {
   color: #878680;
   font-weight: 500;
 }
@@ -4189,8 +4189,6 @@ select:focus {
   color: #eec044;
   font-size: 14px;
   font-weight: 400;
-  /* margin-top: 20px; */
-  /* font-family: "Poppins", sans-serif; */
 }
 
 /* special offers container end  */
@@ -4282,7 +4280,7 @@ select:focus {
 /* quality products container end  */
 
 /* testimonial container start  */
-.home2TestimonialBackground {
+.home3TestimonialBackground {
   height: 70vh;
   display: flex;
   text-align: center;
@@ -4292,13 +4290,13 @@ select:focus {
   background-position: center center;
 }
 
-.home2TestimonialContainer {
+.home3TestimonialContainer {
   width: 100%;
   padding: 60px 0;
   text-align: center;
 }
 
-.home2TestimonialContainer span {
+.home3TestimonialContainer span {
   font-size: 24px;
   font-weight: 400;
   color: #eec044;
@@ -4306,19 +4304,19 @@ select:focus {
   font-family: "Covered By Your Grace", serif;
 }
 
-.home2TestimonialContainer h2 {
+.home3TestimonialContainer h2 {
   font-size: 48px;
   font-weight: 800;
 }
 
-.home2TestimonialCards {
+.home3TestimonialCards {
   display: flex;
   gap: 90px;
   text-align: left;
   justify-content: center;
 }
 
-.home2TestimonialBoxFirst {
+.home3TestimonialBoxFirst {
   display: flex;
   width: 40%;
   height: 300px;
@@ -4332,7 +4330,7 @@ select:focus {
   background-position: center center;
 }
 
-.home2TestimonialBoxSecond {
+.home3TestimonialBoxSecond {
   display: flex;
   width: 40%;
   height: 300px;
@@ -4346,11 +4344,11 @@ select:focus {
   background-position: center center;
 }
 
-.home2TestimonialCard {
+.home3TestimonialCard {
   margin-left: 60px;
 }
 
-.home2TestimonialCardHeading {
+.home3TestimonialCardHeading {
   width: 100%;
   margin-top: 10px;
   display: flex;
@@ -4359,11 +4357,11 @@ select:focus {
   color: #ffffff;
 }
 
-.home2TestimonialImage {
+.home3TestimonialImage {
   position: relative;
 }
 
-.home2TestimonialProfile {
+.home3TestimonialProfile {
   position: absolute;
   right: 0;
   transform: translate(30%, 40%);
@@ -4371,13 +4369,13 @@ select:focus {
   height: 110px;
 }
 
-.home2TestimonialProfile img {
+.home3TestimonialProfile img {
   width: 100%;
   height: 150px;
   border-radius: 10px;
 }
 
-.home2TestimonialActiveStatus {
+.home3TestimonialActiveStatus {
   position: absolute;
   top: 100px;
   left: 25px;
@@ -4407,7 +4405,7 @@ select:focus {
   font-weight: 800;
 }
 
-.home2ImagesBoxes {
+.home3ImagesBoxes {
   display: flex;
   gap: 10px;
   width: 100%;
@@ -4416,7 +4414,7 @@ select:focus {
   justify-content: space-between;
 }
 
-.home2ImagesBoxFirst {
+.home3ImagesBoxFirst {
   display: flex;
   width: 20%;
   height: 350px;
@@ -4428,7 +4426,7 @@ select:focus {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.home2ImagesBoxSecond {
+.home3ImagesBoxSecond {
   display: flex;
   width: 20%;
   height: 350px;
@@ -4440,7 +4438,7 @@ select:focus {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.home2ImagesBoxThird {
+.home3ImagesBoxThird {
   display: flex;
   width: 20%;
   height: 350px;
@@ -4452,7 +4450,7 @@ select:focus {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.home2ImagesBoxFourth {
+.home3ImagesBoxFourth {
   display: flex;
   width: 20%;
   height: 350px;
@@ -4463,7 +4461,7 @@ select:focus {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.home2ImagesBoxFifth {
+.home3ImagesBoxFifth {
   display: flex;
   width: 20%;
   height: 350px;
@@ -4474,3 +4472,6 @@ select:focus {
   background-position: center center;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
+
+/* home 3 container end  */
+/* HOME 3 LANDING PAGE END  */

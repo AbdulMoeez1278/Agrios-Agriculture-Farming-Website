@@ -813,20 +813,20 @@
     margin-top: 20px;
   }
 
-  .home2HeroBackground {
+  .home3HeroBackground {
     height: 80vh;
   }
 
-  .home2HeroText h1 span {
+  .home3HeroText h1 span {
     font-size: 36px;
   }
 
-  .home2HeroText h1 {
+  .home3HeroText h1 {
     font-size: 36px;
     font-weight: 800;
   }
 
-  .home2HeroBoxes {
+  .home3HeroBoxes {
     padding: 30px 30px;
     flex-wrap: nowrap;
   }
@@ -898,37 +898,37 @@
   .qualityProductsbutton {
     margin-top: 20px;
   }
-  .home2TestimonialContainer h2 {
+  .home3TestimonialContainer h2 {
     font-size: 28px;
   }
-  .home2TestimonialBoxFirst {
+  .home3TestimonialBoxFirst {
     height: 260px;
     margin-top: 50px;
     padding: 10px;
   }
-  .home2TestimonialBoxSecond {
+  .home3TestimonialBoxSecond {
     height: 260px;
     margin-top: 50px;
     padding: 10px;
   }
-  .home2TestimonialCards {
+  .home3TestimonialCards {
     gap: 50px;
   }
-  .home2TestimonialProfile {
+  .home3TestimonialProfile {
     transform: translate(70%, 40%);
     width: 110px;
     height: 170px;
   }
-  .home2TestimonialProfile img {
+  .home3TestimonialProfile img {
     height: 110px;
   }
-  .home2TestimonialActiveStatus {
+  .home3TestimonialActiveStatus {
     top: 110px;
     left: 60px;
     width: 30px;
     height: 30px;
   }
-  .home2TestimonialCardHeading {
+  .home3TestimonialCardHeading {
     align-items: start;
   }
   .newsArticlesContainer {
@@ -2244,34 +2244,34 @@
     font-size: 14px;
   }
 
-  .home2HeroBackground {
+  .home3HeroBackground {
     height: 60vh;
   }
 
-  .home2HeroText h1 span {
+  .home3HeroText h1 span {
     font-size: 24px;
   }
 
-  .home2HeroText h1 {
+  .home3HeroText h1 {
     font-size: 24px;
   }
-  .home2Circle svg {
+  .home3Circle svg {
     width: 40px;
   }
-  .home2HeroBtn {
+  .home3HeroBtn {
     padding: 15px 20px;
   }
 
-  .home2HeroBoxes {
+  .home3HeroBoxes {
     padding: 20px 20px;
   }
-  .home2HeroBoxImage svg {
+  .home3HeroBoxImage svg {
     width: 50px;
   }
-  .home2HeroBox .home2HeroBold {
+  .home3HeroBox .home3HeroBold {
     margin-top: 0;
   }
-  .home2HeroBox p {
+  .home3HeroBox p {
     font-size: 14px;
   }
   .latestProductsContainer {
@@ -2387,37 +2387,37 @@
   .qualityProductsbtn {
     padding: 16px 20px;
   }
-  .home2TestimonialContainer h2 {
+  .home3TestimonialContainer h2 {
     font-size: 28px;
   }
-  .home2TestimonialBoxFirst {
+  .home3TestimonialBoxFirst {
     height: 200px;
     margin-top: 40px;
     padding: 0px;
   }
-  .home2TestimonialBoxSecond {
+  .home3TestimonialBoxSecond {
     height: 200px;
     margin-top: 40px;
     padding: 0px;
   }
-  .home2TestimonialCards {
+  .home3TestimonialCards {
     gap: 50px;
   }
-  .home2TestimonialProfile {
+  .home3TestimonialProfile {
     transform: translate(80%, 40%);
     width: 90px;
     height: 170px;
   }
-  .home2TestimonialProfile img {
+  .home3TestimonialProfile img {
     height: 110px;
   }
-  .home2TestimonialActiveStatus {
+  .home3TestimonialActiveStatus {
     top: 115px;
     left: 63px;
     width: 20px;
     height: 20px;
   }
-  .home2TestimonialCardHeading {
+  .home3TestimonialCardHeading {
     align-items: start;
     justify-content: center;
   }
@@ -2430,28 +2430,28 @@
   .newsArticlesContainer h2 {
     font-size: 24px;
   }
-  .home2ImagesBoxes {
+  .home3ImagesBoxes {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .home2ImagesBoxFirst {
+  .home3ImagesBoxFirst {
     width: 90%;
     height: 300px;
   }
-  .home2ImagesBoxSecond {
+  .home3ImagesBoxSecond {
     width: 90%;
     height: 300px;
   }
-  .home2ImagesBoxThird {
+  .home3ImagesBoxThird {
     width: 90%;
     height: 300px;
   }
-  .home2ImagesBoxFourth {
+  .home3ImagesBoxFourth {
     width: 90%;
     height: 300px;
   }
-  .home2ImagesBoxFifth {
+  .home3ImagesBoxFifth {
     width: 90%;
     height: 300px;
   }
@@ -4161,38 +4161,38 @@
     padding: 0px 10px;
   }
 
-  .home2HeroBackground {
+  .home3HeroBackground {
     height: 30vh;
   }
 
-  .home2HeroText h1 span {
+  .home3HeroText h1 span {
     font-size: 20px;
   }
 
-  .home2HeroText h1 {
+  .home3HeroText h1 {
     font-size: 20px;
   }
-  .home2Circle svg {
+  .home3Circle svg {
     width: 30px;
   }
-  .home2HeroButton {
+  .home3HeroButton {
     margin-top: 10px;
   }
-  .home2HeroBtn {
+  .home3HeroBtn {
     padding: 10px 15px;
   }
 
-  .home2HeroBoxes {
+  .home3HeroBoxes {
     bottom: 40px;
     padding: 10px 10px;
   }
-  .home2HeroBoxImage svg {
+  .home3HeroBoxImage svg {
     width: 40px;
   }
-  .home2HeroBox .home2HeroBold {
+  .home3HeroBox .home3HeroBold {
     margin-top: 0;
   }
-  .home2HeroBox p {
+  .home3HeroBox p {
     font-size: 14px;
   }
   .latestProductsContainer {
@@ -4327,50 +4327,50 @@
   .qualityProductsbtn {
     padding: 12px 10px;
   }
-  .home2TestimonialBackground {
+  .home3TestimonialBackground {
     height: 90vh;
   }
-  .home2TestimonialContainer {
+  .home3TestimonialContainer {
     padding: 8px 0;
   }
-  .home2TestimonialContainer span {
+  .home3TestimonialContainer span {
     font-size: 14px;
   }
-  .home2TestimonialContainer h2 {
+  .home3TestimonialContainer h2 {
     font-size: 18px;
   }
-  .home2TestimonialBoxFirst {
+  .home3TestimonialBoxFirst {
     width: 100%;
     height: 200px;
     margin-top: 20px;
     padding: 0px;
   }
-  .home2TestimonialBoxSecond {
+  .home3TestimonialBoxSecond {
     width: 100%;
     height: 200px;
     margin-top: 20px;
     padding: 0px;
   }
-  .home2TestimonialCards {
+  .home3TestimonialCards {
     gap: 0px;
     flex-direction: column;
     align-items: center;
   }
-  .home2TestimonialProfile {
+  .home3TestimonialProfile {
     transform: translate(80%, 40%);
     width: 90px;
     height: 170px;
   }
-  .home2TestimonialProfile img {
+  .home3TestimonialProfile img {
     height: 110px;
   }
-  .home2TestimonialActiveStatus {
+  .home3TestimonialActiveStatus {
     top: 115px;
     left: 63px;
     width: 20px;
     height: 20px;
   }
-  .home2TestimonialCardHeading {
+  .home3TestimonialCardHeading {
     align-items: start;
     justify-content: center;
   }
@@ -4383,28 +4383,28 @@
   .newsArticlesContainer h2 {
     font-size: 18px;
   }
-  .home2ImagesBoxes {
+  .home3ImagesBoxes {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .home2ImagesBoxFirst {
+  .home3ImagesBoxFirst {
     width: 90%;
     height: 250px;
   }
-  .home2ImagesBoxSecond {
+  .home3ImagesBoxSecond {
     width: 90%;
     height: 250px;
   }
-  .home2ImagesBoxThird {
+  .home3ImagesBoxThird {
     width: 90%;
     height: 250px;
   }
-  .home2ImagesBoxFourth {
+  .home3ImagesBoxFourth {
     width: 90%;
     height: 250px;
   }
-  .home2ImagesBoxFifth {
+  .home3ImagesBoxFifth {
     width: 90%;
     height: 250px;
   }

@@ -4579,3 +4579,531 @@ select:focus {
 .home2HeroBtn:hover {
   background-color: #b99f57;
 }
+
+.agricultureMarketContainer {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin: 120px auto;
+}
+
+.agricultureMarketLeft {
+  width: 50%;
+}
+
+.agricultureMarketLeft span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.agricultureMarketLeft h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.agricultureMarketLeft p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+  color: #878680;
+  line-height: 1.5em;
+}
+
+.agricultureMarketBox {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.agricultureMarketBox .agricultureMarketPara {
+  color: #4baf47;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.agricultureMarketBox .agricultureMarketPara2 {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.agricultureMarketBoxImage img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.agricultureMarketBtn {
+  border: none;
+  color: white;
+  padding: 16px 45px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.agricultureMarketBtn:hover {
+  background-color: #b99f57;
+}
+
+.agricultureMarketRight {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+}
+
+.agricultureMarketImage {
+  width: 100%;
+}
+
+.agricultureMarketImage img {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* services container start  */
+.home2ServicesContainer {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.home2ServicesContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.home2ServicesContainer h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.home2ServicesBoxes {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.home2ServicesItemFirst {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesImage1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home2ServicesItems {
+  position: relative;
+  margin: 20px 0;
+  padding: 10px 35px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.home2ServicesItems h5 {
+  margin-top: 20px;
+}
+
+.home2ServicesBtn {
+  border: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.home2ServicesItemSecond {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesImage2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home2ServicesItemThird {
+  display: flex;
+  width: 20%;
+  height: 350px;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  background: url("../assets/images/servicesImage3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home2ServicesIcons {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #c5ce38;
+  border-radius: 7px;
+  left: 50%;
+  padding: 5px;
+  top: 0;
+}
+
+/* services container end  */
+
+/* any questions container start  */
+.anyQuestionsBackground {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/images/home2AnyQuestionsImage.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.anyQuestionsContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.anyQuestionsLeft {
+  width: 50%;
+  /* height: 500px;
+  background: url("../assets/images/anyQuestionsLeftImage.png");
+  background-repeat: no-repeat;
+  background-position: center center; */
+}
+
+/* .anyQuestionsLeftImage {
+  width: 100%;
+} */
+
+.anyQuestionsLeft img {
+  width: 90%;
+  height: 480px;
+  border-radius: 10px;
+}
+
+.anyQuestionsRight {
+  width: 50%;
+}
+
+.anyQuestionsRight span {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.anyQuestionsRight h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.anyQuestionsAccordian {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.anyQuestionsAccordianItem {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f7f0;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.anyQuestionsAccordianItem svg {
+  cursor: pointer;
+}
+
+.anyQuestionsAccordian p {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.recentProjectsContainer {
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.recentProjectsLeft {
+  width: 50%;
+}
+
+.recentProjectsContainer span {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.recentProjectsContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.recentProjectsRight {
+  width: 50%;
+}
+
+.recentProjectsRight p {
+  font-weight: 500;
+  margin-top: 40px;
+  color: #878680;
+  line-height: 1.8em;
+}
+
+.builtMarketBackground {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  margin-top: 120px;
+  align-items: end;
+  background: url("../assets/images/builtMarketBgImage.png");
+  background-repeat: repeat;
+  background-position: center;
+  /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); */
+}
+
+.builtMarketContainer {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.builtMarketLeft {
+  width: 50%;
+}
+
+.builtMarketLeftText {
+  padding: 40px 80px;
+  background-color: #49a760;
+}
+
+.builtMarketLeftText h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.builtMarketLeftText p {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.3em;
+}
+
+.builtMarketRight {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.farmContainer {
+  width: 100%;
+  height: 20vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.farmCircle {
+  display: flex;
+  gap: 20px;
+}
+
+.farmRightImages {
+  display: flex;
+  gap: 50px;
+}
+
+.meetFarmersContainer {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.meetFarmersContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.meetFarmersContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.meetFarmersBoxes {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+.meetFarmersBoxFirst {
+  display: flex;
+  width: 25%;
+  height: 350px;
+  align-items: end;
+  justify-content: end;
+  border-radius: 10px;
+  background: url("../assets/images/meetFarmersImg1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.meetFarmersBoxSecond {
+  display: flex;
+  width: 25%;
+  height: 350px;
+  align-items: end;
+  justify-content: end;
+  border-radius: 10px;
+  background: url("../assets/images/meetFarmersImg2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.meetFarmersBoxThird {
+  display: flex;
+  width: 25%;
+  height: 350px;
+  align-items: end;
+  justify-content: end;
+  border-radius: 10px;
+  background: url("../assets/images/meetFarmersImg3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.articleNewsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.articleNewsContainer p {
+  font-size: 24px;
+  color: #eec044;
+  align-items: center;
+  font-family: "Covered By Your Grace", serif;
+}
+
+.articleNewsContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.articleNewsBoxes {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.articleNewsBoxes h3 {
+  margin-bottom: 20px;
+  padding: 0 18px;
+  color: #ffffff;
+}
+
+.articleNewsBoxFirst {
+  display: flex;
+  width: 25%;
+  height: 360px;
+  align-items: end;
+  justify-content: end;
+  border-radius: 10px;
+  background: url("../assets/images/articleNewsImg1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.articleNewsBoxFirst img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.articleNewsBoxSecond {
+  display: flex;
+  width: 25%;
+  height: 360px;
+  align-items: end;
+  border-radius: 10px;
+  justify-content: end;
+  background: url("../assets/images/articleNewsImg2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.articleNewsBoxSecond img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.articleNewsBoxThird {
+  display: flex;
+  width: 25%;
+  height: 360px;
+  align-items: end;
+  border-radius: 10px;
+  justify-content: end;
+  background: url("../assets/images/articleNewsImg3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.articleNewsBoxThird img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}

@@ -4475,3 +4475,107 @@ select:focus {
 
 /* home 3 container end  */
 /* HOME 3 LANDING PAGE END  */
+
+/* HOME 2 LANDING PAGE START  */
+/* home 2 container start  */
+.backgroundImage {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/images/home2BackgroundImage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home2HeadContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.home2HeadContainer .navItems ul li a {
+  color: #ffffff;
+}
+
+.headAgriosSecond .dropdownContentHome .ulBar li a {
+  color: black;
+}
+
+.headAgriosSecond .dropdownContentServices .ulBar li a {
+  color: black;
+}
+
+.headAgriosSecond .dropdownContentProjects .ulBar li a {
+  color: black;
+}
+
+.headAgriosSecond .dropdownContentNews .ulBar li a {
+  color: black;
+}
+
+.headAgriosSecond .dropdownContentShop .ulBar li a {
+  color: black;
+}
+
+.headAgriosSecond .dropdownContentHome .ulBar li a:hover {
+  color: #edc044;
+}
+
+.headAgriosSecond .dropdownContentServices .ulBar li a:hover {
+  color: #edc044;
+}
+
+.headAgriosSecond .dropdownContentProjects .ulBar li a:hover {
+  color: #edc044;
+}
+
+.headAgriosSecond .dropdownContentNews .ulBar li a:hover {
+  color: #edc044;
+}
+
+.headAgriosSecond .dropdownContentShop .ulBar li a:hover {
+  color: #edc044;
+}
+
+.home2HeroContainer {
+  width: 100%;
+  color: white;
+}
+
+.circleHome2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.home2HeroContainer h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.home2HeroContainer h1 span {
+  font-size: 70px;
+  color: #eec044;
+}
+
+.home2HeroButton {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.home2HeroBtn {
+  border: none;
+  color: #ffffff;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #4baf47;
+  border-radius: 10px;
+}
+
+.home2HeroBtn:hover {
+  background-color: #b99f57;
+}

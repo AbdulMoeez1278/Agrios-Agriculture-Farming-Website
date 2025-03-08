@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Covered+By+Your+Grace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Covered+By+Your+Grace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light+Two&display=swap");
 
 /* universal selector */
 * {
@@ -5126,6 +5126,7 @@ select:focus {
   display: flex;
   gap: 20px;
   margin-top: 100px;
+  position: relative;
 }
 
 .productFarmLeft {
@@ -5139,7 +5140,7 @@ select:focus {
 
 .productFarmImage img {
   width: 100%;
-  height: 700px;
+  height: 800px;
 }
 
 .productFarmImage2 {
@@ -5195,4 +5196,205 @@ select:focus {
   font-weight: 700;
   color: #04000b;
   margin-top: 0;
+}
+
+.productFarmBoxes {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: 60%;
+}
+
+.productFarmBox1 {
+  width: 50%;
+  padding: 40px 40px;
+  background-color: #f7c35f;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.productFarmBoxes img {
+  width: 70px;
+  height: 70px;
+}
+
+.productFarmBoxes .productFarmBoxText {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.productFarmBoxes .productFarmPara2 {
+  font-weight: 500;
+  color: #04000b;
+  margin-top: 10px;
+}
+
+.productFarmBox2 {
+  width: 50%;
+  padding: 40px 40px;
+  background-color: #49a760;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.sellOrganicBackground {
+  width: 100%;
+  height: 100vh;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  background: url("../assets/images/sellOrganicBackgroundImg.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.sellOrganicContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sellOrganicContainer span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #49a760;
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+.sellOrganicContainer h2 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.sellOrganicBoxes {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.sellOrganicBoxCard {
+  width: 35%;
+  padding: 40px 40px;
+  background-color: #fcfcfc;
+  border-radius: 30px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.sellOrganicBoxCard img {
+  width: 120px;
+  height: 100px;
+}
+
+.sellOrganicBoxCard .sellOrganicHeading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #04000b;
+  font-family: "Outfit", serif;
+}
+
+.sellOrganicBoxCard .sellOrganicPara {
+  font-size: 18px;
+  font-weight: 500;
+  color: #49a760;
+}
+
+.sellOrganicBoxCard p {
+  margin-top: 10px;
+  color: #666666;
+  line-height: 1.5em;
+  font-family: "Outfit", serif;
+}
+
+.sellOrganicBoxCard .sellOrganicIcon {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.distributorBackground {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: end;
+  background: url("../assets/images/distributorBgImage2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.distributorBox {
+  width: 40%;
+  padding: 40px 40px;
+  background-color: #49a760;
+}
+
+.distributorBox h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fcfcfc;
+  font-family: "Outfit", serif;
+}
+
+.distributorBox p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #fcfcfc;
+  line-height: 1.5em;
+  font-family: "Outfit", serif;
+}
+
+.distributorCard {
+  margin-top: 20px;
+}
+
+.distributorCardItem {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.distributorCard .ditrubutorPara {
+  margin-top: 0;
+}
+
+/* fresh products container start  */
+.freshProductsContainer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.freshProductsLeft {
+  width: 50%;
+}
+
+.freshProductsLeft p {
+  font-size: 80px;
+  font-weight: 400;
+  color: #d3c132;
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+.freshProductsRight {
+  width: 50%;
+}
+
+.freshProductsCardOne {
+  display: flex;
+  justify-content: space-around;
+}
+
+.freshProductsImages img {
+  width: 80px;
+  height: 80px;
+}
+
+.freshProductsCardTwo {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
 }

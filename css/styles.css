@@ -1843,7 +1843,7 @@ input[type="email"] {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-input[type="email"] {
+.contactForm input[type="email"] {
   margin-left: 10px;
 }
 
@@ -3322,6 +3322,7 @@ input[type="checkbox"] {
 .latestNewsForm label {
   color: #878680;
 }
+
 /* latest news container end  */
 /* LATEST NEWS LANDING PAGE END  */
 
@@ -3584,6 +3585,7 @@ input[type="checkbox"] {
 .shopItemsForm label {
   color: #878680;
 }
+
 /* shop items container end  */
 /* SHOP ITEMS LANDING PAGE END  */
 
@@ -3844,6 +3846,7 @@ select:focus {
   background-color: #4baf47;
   border: 1px solid #4baf47;
 }
+
 /* shop container end  */
 /* SHOP LANDING PAGE END  */
 
@@ -4277,6 +4280,7 @@ select:focus {
 .qualityProductsbtn:hover {
   background-color: #b99f57;
 }
+
 /* quality products container end  */
 
 /* testimonial container start  */
@@ -5107,6 +5111,7 @@ select:focus {
   height: 150px;
   border-radius: 10px;
 }
+
 /* home 2 container end  */
 /* HOME 2 LANDING PAGE END  */
 
@@ -5328,6 +5333,7 @@ select:focus {
   width: 40%;
   padding: 40px 40px;
   background-color: #49a760;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .distributorBox h2 {
@@ -5397,4 +5403,356 @@ select:focus {
   display: flex;
   margin-top: 30px;
   justify-content: space-around;
+}
+
+.home4TestimonialBackground {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  align-items: end;
+  background-color: #e9f1ee;
+}
+
+.home4TestimonialContainer {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.home4TestimonialLeft {
+  width: 50%;
+}
+
+/* .TestimonialLeftImage {
+  width: 100%;
+} */
+
+.TestimonialLeftImage img {
+  width: 80%;
+  height: 500px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.home4TestimonialRight {
+  width: 50%;
+}
+
+.home4TestimonialRight h2 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.home4TestimonialBox {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-40%, 40%);
+  background-color: #fcfcfc;
+  font-family: "Outfit", serif;
+}
+
+.home4TestimonialCard {
+  padding: 30px 80px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.home4TestimonialBox p {
+  border-bottom: 2px solid #666666;
+  color: #666666;
+  padding: 30px 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home4TestimonialItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home4TestimonialCard .testimonialPara {
+  font-size: 22px;
+  font-weight: 600;
+  color: #04000b;
+  margin-top: 20px;
+  padding: 0;
+  border-bottom: none;
+  font-family: "Outfit", serif;
+}
+
+.home4TestimonialCard span {
+  font-size: 14px;
+  color: #666666;
+  font-family: "Outfit", serif;
+}
+
+.testimonialStarIcons {
+  display: flex;
+}
+
+/* contact background container start  */
+.home4ContactBackground {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  background: url("../assets/images/contactBgImage.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.home4ContactContainer {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.home4ContactLeft {
+  width: 50%;
+}
+
+.home4ContactRight {
+  width: 50%;
+  padding: 0 30px;
+}
+
+.home4ContactLeft p {
+  color: #49a760;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+.home4ContactLeft h2 {
+  color: #1f1e17;
+  font-size: 44px;
+  font-weight: 800;
+}
+
+/* .contactForm {
+  margin-top: 20px;
+} */
+
+/* Style inputs with type="text", select elements and textareas */
+.home4ContactLeft input[type="text"],
+.home4ContactLeft input[type="email"] {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid #ffffff;
+  outline: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.home4ContactLeft textarea {
+  width: 100%;
+  height: 180px;
+  padding: 16px 20px;
+  border: 1px solid #ffffff;
+  outline: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.home4ContactBtn {
+  display: flex;
+  gap: 10px;
+  border: none;
+  padding: 18px 35px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #f7c35f;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.home4ContactBtn:hover {
+  background-color: #378035;
+}
+
+.home4ContactRight h2 {
+  font-size: 44px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.home4ContactRight p {
+  font-weight: 500;
+  margin-top: 20px;
+  font-family: "Outfit", serif;
+}
+
+.home4ContactRight .home4ContactNumber {
+  margin-top: 40px;
+}
+
+.home4ContactNumber .contactTextBold {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.home4ContactNumber .contactNumber {
+  font-weight: 400;
+  margin-top: 10px;
+  font-family: "Outfit", serif;
+}
+
+/* blog posts section start  */
+.blogPostsContainer {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.blogPostsContainer .blogsPara {
+  font-size: 24px;
+  font-weight: 400;
+  color: #49a760;
+  font-family: "Shadows Into Light Two", cursive;
+  text-align: center;
+}
+
+.blogPostsContainer h2 {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+  text-align: center;
+}
+
+.blogsNewsContainer {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.blogPostsLeft {
+  width: 50%;
+  /* height: 40vh; */
+  background: url("../assets/images/blogPostsLeftImg.jpeg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 60px 40px;
+  align-items: end;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.blogPostsLeft h1 {
+  color: #fcfcfc;
+  font-weight: 600;
+  margin-top: 80px;
+  font-family: "Outfit", serif;
+}
+
+.blogPostsLeft p {
+  color: #fcfcfc;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: "Outfit", serif;
+}
+
+.blogPostsButton {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.blogPostsButton .blogPostsText {
+  margin-top: 0;
+  font-family: "Outfit", serif;
+}
+
+.blogPostsRight {
+  width: 50%;
+}
+
+.blogPostsBox {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.blogPostsCard {
+  width: 50%;
+}
+
+.blogPostsImage {
+  width: 100%;
+}
+
+.blogPostsImage img {
+  width: 100%;
+}
+
+.blogPostsCard .blogNews {
+  width: 20%;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  transform: translate(0, -20%);
+}
+
+.blogPostsCard .blogNewsSecond {
+  width: 20%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(8%, 30%);
+}
+
+.blogPostsCard .blogNewsDate {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 20px 30px;
+  background-color: #f7c35f;
+  font-family: "Outfit", serif;
+}
+
+.blogPostsCard .blogNewsYear {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #49a760;
+  font-family: "Outfit", serif;
+}
+
+.blogPostsCard .blogNewsCustomer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666666;
+  font-family: "Outfit", serif;
+}
+
+.blogNewsCustomer .customerDOB {
+  list-style: disc;
+}
+
+.blogPostsCardHeading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+  margin-top: 10px;
+}
+
+.blogPostsButton .blogPostsRightText {
+  font-weight: 600;
+  color: #04000b;
+  font-family: "Outfit", serif;
 }

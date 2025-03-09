@@ -5760,3 +5760,350 @@ select:focus {
   font-family: "Outfit", serif;
   cursor: pointer;
 }
+
+/* HOME 4 LANDING PAGE END  */
+
+/* HOME 5 LANDING PAGE START  */
+.home5BackgroundImage {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/images/home5BgImage.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.home5BackgroundImage .iconText p {
+  font-size: 12px;
+  color: white;
+}
+
+/* organic firm container start  */
+.organicFirmBackground {
+  width: 100%;
+  background: url("../assets/images/organnicFirmBgImg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+.organicFirmsContainer {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+}
+
+.organicFirmLeft {
+  width: 20%;
+}
+
+.oganicFirmLeftImage {
+  width: 100%;
+}
+
+.oganicFirmLeftImage img {
+  width: 100%;
+  height: 420px;
+
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.organicFirmMiddle {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.organicFirmMiddle h2 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.organicFirmMiddle p {
+  font-weight: 500;
+  font-family: "Outfit", serif;
+  color: #666666;
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+
+.organicFirmMiddleCard {
+  margin-top: 30px;
+}
+
+.organicFirmMiddleCardItem {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.organicFirmMiddleCard .organicFirmMiddlePara {
+  margin-top: 0;
+  color: #04000b;
+  font-weight: 600;
+}
+
+.organicFirmMiddleButton {
+  margin-top: 30px;
+}
+
+.organicFirmMiddleBtn {
+  border: none;
+  color: #04000b;
+  padding: 16px 45px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #f7c35f;
+  border-radius: 10px;
+}
+
+.organicFirmMiddleBtn:hover {
+  background-color: #b99f57;
+}
+
+.organicFirmRight {
+  width: 30%;
+}
+
+.organicFirmBoxes {
+  padding: 40px 60px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.organicFirmBox {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.organicFirmItem img {
+  width: 60px;
+  height: 60px;
+}
+
+.organicFirmBox p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+/* live stock container start  */
+.liveStockBackground {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-color: #4baf47;
+  margin-top: 100px;
+}
+
+.liveStockContainer {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.liveStockLeft {
+  width: 50%;
+}
+
+.liveStockTextBox {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.liveStockTextBox .liveStockPara {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0;
+  font-family: "Outfit", serif;
+  color: #ffffff;
+}
+
+.liveStockText p {
+  margin-top: 10px;
+  line-height: 1.4em;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Outfit", serif;
+}
+
+.liveStockRight {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.liveStockRight p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+.liveStockRight h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Outfit", serif;
+}
+
+.liveStockNumbers {
+  /* margin-top: 10px; */
+  width: 50%;
+  padding: 30px 0;
+  border-bottom: 2px solid black;
+}
+
+.liveStockNumbers .liveNumber {
+  font-size: 50px;
+  font-weight: 600;
+  color: #f7c35f;
+  font-family: "Outfit", serif;
+}
+
+.liveStockNumbers .liveText {
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Outfit", serif;
+  font-size: 16px;
+}
+.liveStockNumbersSecond {
+  margin-top: 10px;
+  width: 50%;
+}
+.liveStockNumbersSecond .liveNumber {
+  font-size: 50px;
+  font-weight: 600;
+  color: #f7c35f;
+  font-family: "Outfit", serif;
+}
+
+.liveStockNumbersSecond .liveText {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Outfit", serif;
+}
+
+/* healthy life container start  */
+.healthyLifeBackground {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #e9f1ee;
+}
+
+.healthyLifeContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.healthyLifeContainer h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.healthyLifeBoxes {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.healthyLifeCard {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  top: 30px;
+}
+
+.healthyLifeText {
+  padding: 20px 60px;
+  color: #04000b;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.healthyLifeBoxes h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+.healthyLifeText p {
+  position: relative;
+}
+
+.healthyLifeText p::before {
+  content: "";
+  width: 35%;
+  display: flex;
+  position: absolute;
+  right: 80px;
+  bottom: 10px;
+  transform: translate(-50%, 0%);
+  border: 1px solid #49a760;
+}
+
+.healthyLifeText p::after {
+  content: "";
+  width: 30%;
+  display: flex;
+  position: absolute;
+  left: 85px;
+  bottom: 10px;
+  transform: translate(50%, 0%);
+  border: 1px solid #49a760;
+}
+
+.healthyLifeBoxFirst {
+  display: flex;
+  width: 25%;
+  height: 350px;
+  align-items: end;
+  justify-content: center;
+  border-radius: 10px;
+  background: url("../assets/images/healthyLifeBoxImg1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.healthyLifeBoxSecond {
+  display: flex;
+  width: 25%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  justify-content: center;
+  background: url("../assets/images/healthyLifeBoxImg2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.healthyLifeBoxThird {
+  display: flex;
+  width: 25%;
+  height: 350px;
+  align-items: end;
+  border-radius: 10px;
+  justify-content: center;
+  background: url("../assets/images/healthyLifeBoxImg3.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* healthy life container end  */

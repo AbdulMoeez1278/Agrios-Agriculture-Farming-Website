@@ -342,7 +342,6 @@
 
 /* MEDIA BREAKPOINT FROM 769px TO 1057px */
 @media (min-width: 769px) and (max-width: 1057px) {
-
   /* .headAgriosFirst {
     justify-content: center;
     flex-direction: column;
@@ -1690,7 +1689,7 @@
   }
 
   .logo svg {
-    width: 140px;
+    width: 120px;
   }
 
   .hamburger {
@@ -1707,11 +1706,12 @@
   }
 
   .navBoxes {
-    gap: 15px;
+    display: none;
+    /* gap: 15px;
     margin-top: 15px;
     flex-wrap: wrap;
-    /* flex-direction: column; */
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center; */
   }
 
   .navBox {
@@ -3860,6 +3860,362 @@
     width: 25%;
     bottom: 54%;
     left: 49%;
+  }
+  .home5BackgroundImage {
+    height: 40vh;
+  }
+
+  .organicFirmBackground {
+    width: 100%;
+    background: none;
+  }
+
+  .organicFirmsContainer {
+    margin-top: 50px;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .organicFirmLeft {
+    width: 100%;
+  }
+
+  .oganicFirmLeftImage img {
+    height: 300px;
+  }
+  .organicFirmMiddle {
+    width: 100%;
+    padding: 0;
+  }
+
+  .organicFirmMiddle h2 {
+    font-size: 24px;
+  }
+
+  .organicFirmMiddle p {
+    margin-top: 10px;
+  }
+
+  .organicFirmMiddleCard {
+    margin-top: 10px;
+  }
+
+  .organicFirmMiddleCardItem {
+    justify-content: center;
+  }
+
+  .organicFirmMiddleButton {
+    margin-top: 10px;
+  }
+
+  .organicFirmMiddleBtn {
+    padding: 16px 20px;
+  }
+
+  .organicFirmRight {
+    width: 100%;
+  }
+
+  .organicFirmBoxes {
+    padding: 20px 20px;
+    justify-content: center;
+    display: grid;
+  }
+
+  .organicFirmItem img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .organicFirmBox {
+    gap: 10px;
+  }
+
+  .liveStockBackground {
+    height: 80vh;
+    margin-top: 50px;
+  }
+
+  .liveStockContainer {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .liveStockLeft {
+    width: 100%;
+  }
+
+  .liveStockTextBox {
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .liveStockIcon svg {
+    width: 18px;
+    height: 20px;
+  }
+
+  .liveStockTextBox .liveStockPara {
+    font-size: 16px;
+  }
+  .liveStockText p {
+    margin-top: 0;
+  }
+
+  .liveStockRight {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+  }
+  .liveStockRight p {
+    font-size: 16px;
+  }
+
+  .liveStockRight h2 {
+    font-size: 24px;
+  }
+
+  .liveStockBox {
+    display: flex;
+    align-items: center;
+  }
+
+  .liveStockNumbers {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+
+  .liveStockNumbers .liveNumber {
+    font-size: 24px;
+  }
+
+  .liveStockNumbersSecond {
+    width: 100%;
+  }
+
+  .liveStockNumbersSecond .liveNumber {
+    font-size: 24px;
+  }
+
+  .healthyLifeBackground {
+    height: 50vh;
+    margin-top: 40px;
+  }
+
+  .healthyLifeContainer h2 {
+    font-size: 24px;
+  }
+
+  .healthyLifeBoxes {
+    gap: 10px;
+    /* flex-direction: column; */
+    margin-top: 20px;
+  }
+
+  .healthyLifeBoxFirst {
+    width: 30%;
+    height: 200px;
+  }
+
+  .healthyLifeBoxSecond {
+    width: 30%;
+    height: 200px;
+  }
+
+  .healthyLifeBoxThird {
+    width: 30%;
+    height: 200px;
+  }
+
+  .healthyLifeCard {
+    flex-direction: column;
+    gap: 0;
+    top: 20px;
+  }
+
+  .healthyLifeIcon svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .healthyLifeText {
+    padding: 10px 15px;
+  }
+
+  .healthyLifeBoxes h3 {
+    font-size: 16px;
+  }
+
+  .healthyLifeText p {
+    font-size: 14px;
+  }
+
+  .healthyLifeText p::before {
+    content: "";
+    width: 20%;
+    position: absolute;
+    right: 80px;
+    bottom: 8px;
+    transform: translate(-25%, 0%);
+  }
+
+  .healthyLifeText p::after {
+    content: "";
+    width: 20%;
+    position: absolute;
+    left: 85px;
+    bottom: 8px;
+    transform: translate(0%, 0%);
+    border: 1px solid #49a760;
+  }
+
+  .farmingBackground {
+    margin-top: 40px;
+  }
+
+  .farmingContainer h2 {
+    font-size: 24px;
+  }
+
+  .farmingContainer p {
+    margin-top: 10px;
+  }
+
+  .farmDetails .farmYear {
+    font-size: 24px;
+  }
+
+  .farmDetails .farmText {
+    font-size: 14px;
+  }
+
+  .farmerDetailsBoxes {
+    margin-top: 30px;
+  }
+
+  .farmerDetailsBoxes .farmerName {
+    font-size: 18px;
+  }
+
+  .farmerDetailBox {
+    width: 40%;
+  }
+
+  .farmerDetailBox img {
+    height: 200px;
+  }
+
+  .faqBackground {
+    margin-top: 30px;
+  }
+
+  .faqContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .faqContainerLeft {
+    width: 100%;
+  }
+
+  .faqLeftImage img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .faqContainerRight {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .faqContainerRight h2 {
+    font-size: 24px;
+  }
+
+  .faqRightAccordian {
+    margin-top: 10px;
+  }
+
+  .faqAccordion {
+    padding: 14px 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .faqAccordianBox {
+    margin-top: 0;
+  }
+
+  .projectsGalleryContainer {
+    margin-top: 30px;
+  }
+
+  .projectsGalleryContainer .colorGreen {
+    font-size: 16px;
+  }
+
+  .projectsGalleryContainer h2 {
+    font-size: 24px;
+  }
+
+  .projectsGalleryTop {
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .projectsGalleryBottom {
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .projectsGalleryLeftImage {
+    padding: 0px 10px;
+    height: 230px;
+  }
+
+  .projectsGalleryRightImage {
+    padding: 0px 10px;
+    height: 230px;
+  }
+
+  .projectsGalleryBottomLeft {
+    padding: 0px 10px;
+    height: 230px;
+  }
+
+  .projectsGalleryBottomMiddle {
+    padding: 0px 10px;
+    height: 230px;
+  }
+
+  .projectsGalleryBottomRight {
+    padding: 0px 10px;
+    height: 230px;
+  }
+
+  .builtMarketBackground {
+    height: 65vh;
+    margin-top: 60px;
+  }
+
+  .builtMarketImage img {
+    width: 270px;
+  }
+
+  .farmRightImages {
+    gap: 40px;
+  }
+
+  .colorYellow {
+    font-size: 16px;
+  }
+
+  .colorWhiteText {
+    margin-bottom: 20px;
+    font-size: 16px;
   }
 }
 
@@ -6559,7 +6915,7 @@
   }
 
   .blogPostsContainer {
-    margin: 70px auto;
+    margin: 50px auto;
   }
 
   .blogsNewsContainer {
@@ -6616,7 +6972,7 @@
 
   .blogPostsCard .blogNews {
     width: 30%;
-    top: 22%;
+    top: 23%;
   }
 
   .blogPostsCard .blogNewsDate {
@@ -6647,5 +7003,403 @@
 
   .blogPostsButton .blogPostsRightText {
     font-size: 14px;
+  }
+  /* home 5 landing page start  */
+  .home5BackgroundImage {
+    height: 30vh;
+  }
+
+  .organicFirmBackground {
+    width: 100%;
+    background: none;
+  }
+
+  .organicFirmsContainer {
+    margin-top: 30px;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .organicFirmLeft {
+    width: 100%;
+  }
+
+  .oganicFirmLeftImage img {
+    height: 200px;
+  }
+  .organicFirmMiddle {
+    width: 100%;
+    padding: 0;
+  }
+
+  .organicFirmMiddle h2 {
+    font-size: 18px;
+  }
+
+  .organicFirmMiddle p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .organicFirmMiddleCard {
+    margin-top: 10px;
+  }
+
+  .organicFirmMiddleCardItem {
+    justify-content: center;
+  }
+
+  .organicFirmMiddleButton {
+    margin-top: 10px;
+  }
+
+  .organicFirmMiddleBtn {
+    padding: 12px 12px;
+  }
+
+  .organicFirmRight {
+    width: 100%;
+  }
+
+  .organicFirmBoxes {
+    padding: 0;
+    justify-content: center;
+    display: grid;
+  }
+
+  .organicFirmItem img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .organicFirmBox p {
+    font-size: 16px;
+  }
+
+  .organicFirmBox {
+    gap: 10px;
+  }
+
+  .liveStockBackground {
+    height: 80vh;
+    margin-top: 30px;
+  }
+
+  .liveStockContainer {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .liveStockLeft {
+    width: 100%;
+  }
+
+  .liveStockTextBox {
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .liveStockIcon svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .liveStockTextBox .liveStockPara {
+    font-size: 16px;
+  }
+  .liveStockText p {
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  .liveStockRight {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+  }
+  .liveStockRight p {
+    font-size: 14px;
+  }
+
+  .liveStockRight h2 {
+    font-size: 18px;
+  }
+
+  .liveStockBox {
+    display: flex;
+    align-items: center;
+  }
+
+  .liveStockNumbers {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+
+  .liveStockNumbers .liveNumber {
+    font-size: 18px;
+  }
+  .liveStockNumbers .liveText {
+    font-size: 14px;
+  }
+
+  .liveStockNumbersSecond {
+    width: 100%;
+  }
+
+  .liveStockNumbersSecond .liveNumber {
+    font-size: 18px;
+  }
+
+  .liveStockNumbersSecond .liveText {
+    font-size: 14px;
+  }
+
+  .healthyLifeBackground {
+    height: 90vh;
+    margin-top: 40px;
+  }
+
+  .healthyLifeContainer h2 {
+    font-size: 18px;
+  }
+
+  .healthyLifeBoxes {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .healthyLifeBoxFirst {
+    width: 90%;
+    height: 180px;
+  }
+
+  .healthyLifeBoxSecond {
+    width: 90%;
+    height: 180px;
+  }
+
+  .healthyLifeBoxThird {
+    width: 90%;
+    height: 180px;
+  }
+
+  .healthyLifeCard {
+    /* flex-direction: column; */
+    gap: 0;
+    top: 0;
+  }
+
+  .healthyLifeIcon svg {
+    margin-top: 6px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .healthyLifeText {
+    padding: 14px 20px;
+  }
+
+  .healthyLifeBoxes h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .healthyLifeText p {
+    font-size: 14px;
+  }
+
+  .healthyLifeText p::before {
+    content: "";
+    width: 20%;
+    position: absolute;
+    right: 80px;
+    bottom: 8px;
+    transform: translate(-25%, 0%);
+  }
+
+  .healthyLifeText p::after {
+    content: "";
+    width: 20%;
+    position: absolute;
+    left: 85px;
+    bottom: 8px;
+    transform: translate(0%, 0%);
+    border: 1px solid #49a760;
+  }
+
+  .farmingBackground {
+    margin-top: 30px;
+  }
+
+  .farmingContainer h2 {
+    font-size: 18px;
+  }
+
+  .farmingContainer p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .horizontalLine {
+    margin-top: 20px;
+  }
+
+  .farmDetails .farmYear {
+    font-size: 18px;
+  }
+
+  .farmDetails .farmText {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .farmerDetailsBoxes {
+    margin-top: 20px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .farmerDetailsBoxes .farmerName {
+    font-size: 16px;
+  }
+
+  .farmerDetailBox {
+    width: 50%;
+  }
+
+  .farmerDetailBox img {
+    height: 160px;
+  }
+
+  .faqBackground {
+    margin-top: 20px;
+  }
+
+  .faqContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .faqContainerLeft {
+    width: 100%;
+  }
+
+  .faqLeftImage img {
+    width: 100%;
+    height: 220px;
+  }
+
+  .faqContainerRight {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .faqContainerRight h2 {
+    font-size: 18px;
+  }
+
+  .faqRightAccordian {
+    margin-top: 10px;
+  }
+
+  .faqAccordion {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .faqAccordion svg {
+    width: 10px;
+    height: 10px;
+  }
+
+  .faqPanel {
+    font-size: 12px;
+  }
+
+  .faqAccordianBox {
+    margin-top: 0;
+  }
+
+  .projectsGalleryContainer {
+    margin-top: 20px;
+  }
+
+  .projectsGalleryContainer .colorGreen {
+    font-size: 14px;
+  }
+
+  .projectsGalleryContainer h2 {
+    font-size: 18px;
+  }
+
+  .projectsGalleryTop {
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .projectsGalleryBottom {
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .projectsGalleryLeftImage {
+    width: 100%;
+    padding: 0px 10px;
+    height: 200px;
+  }
+
+  .projectsGalleryRightImage {
+    width: 100%;
+    padding: 0px 10px;
+    height: 200px;
+  }
+
+  .projectsGalleryBottomLeft {
+    width: 100%;
+    padding: 0px 10px;
+    height: 200px;
+  }
+
+  .projectsGalleryBottomMiddle {
+    width: 100%;
+    padding: 0px 10px;
+    height: 200px;
+  }
+
+  .projectsGalleryBottomRight {
+    width: 100%;
+    padding: 0px 10px;
+    height: 200px;
+  }
+
+  .builtMarketBackground {
+    height: 65vh;
+    margin-top: 60px;
+  }
+
+  .builtMarketImage img {
+    width: 250px;
+  }
+
+  .farmRightImages {
+    gap: 40px;
+  }
+
+  .colorYellow {
+    font-size: 14px;
+  }
+
+  .colorWhiteText {
+    margin-bottom: 20px;
+    font-size: 16px;
   }
 }

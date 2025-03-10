@@ -6786,6 +6786,8 @@ select:focus {
 /* featured products container start  */
 .featuredContainerBackground {
   width: 100%;
+  display: flex;
+  align-items: center;
   margin-top: 100px;
   background-color: #e9f1ee;
 }
@@ -6793,6 +6795,7 @@ select:focus {
 .featuredProductsContainer {
   width: 100%;
   text-align: center;
+  margin-top: 50px;
 }
 
 .featuredProductsContainer .italicGreen {
@@ -6870,21 +6873,13 @@ select:focus {
   align-items: center;
 }
 
-.organicFruitBtn:hover {
-  background-color: #608b7b;
-}
-
 /* healthy products container start  */
-.healthyProductsBackground {
-  width: 100%;
-  /* background-color: #4baf47; */
-  margin-top: 100px;
-}
 
 .healthyProductsContainer {
   width: 100%;
   display: flex;
   gap: 10px;
+  margin-top: 120px;
 }
 
 .healthyProductsLeft {
@@ -6896,5 +6891,256 @@ select:focus {
 }
 
 .healthyProductsLeftImage img {
+  width: 90%;
+  height: 480px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.healthyProductsRight {
+  width: 50%;
+}
+
+.healthyProductsRight h2 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.healthyProductsRight p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  font-family: "Outfit", serif;
+  color: #cccccc;
+  margin-top: 20px;
+}
+
+.healthProductsBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  position: relative;
+}
+
+.healthProductsBox::after {
+  content: "";
+  border: 1px solid;
+  left: 0;
+  position: absolute;
+  right: 0;
+  /* top: 0; */
+  width: 0;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.healthyProductsSolutions {
+  position: relative;
+}
+
+.healthyProductsSolutions span {
+  color: #f7c35f;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.healthyProductsBoxItem {
+  text-align: center;
+}
+
+.healthyProductsBoxItem .colorBlack {
+  color: #04000b;
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.healthyProductsContentBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.healthyProductsContentBox .colorBlack {
+  margin-top: 0;
+  color: #04000b;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Outfit", serif;
+}
+
+.healthyProductsIcon svg {
+  margin-top: 8px;
+}
+
+/* products container section start  */
+.productsItemsContainer {
   width: 100%;
+  margin-top: 100px;
+}
+
+.productsItemsBoxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productsItemBox {
+  width: 45%;
+  height: 280px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.productsItemBoxImage img {
+  width: 200px;
+  height: 200px;
+}
+
+.productsItemBox p {
+  color: #666666;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.productsItemBox .colorBlack {
+  color: #04000b;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.productsItemBox .amountNumber {
+  margin-top: 10px;
+  color: #49a760;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Outfit", serif;
+}
+
+.productsItemButton {
+  margin-top: 20px;
+}
+
+.productsItemBtn {
+  border: none;
+  color: #04000b;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid #f7c35f;
+  border-radius: 30px;
+  font-family: "Outfit", serif;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+/* customer reviews section start  */
+.customerReviewsBackground {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #e9f1ee;
+  text-align: center;
+}
+
+.customerReviewsContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.customerReviewsContainer .italicGreen {
+  color: #49a760;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+.customerReviewsContainer h2 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.customerReviewBox {
+  width: 60%;
+  height: 360px;
+  margin: 40px auto;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.customerReviewBox .customerReviewsStarIcons {
+  margin-top: 30px;
+}
+
+.customerReviewBox p {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-family: "Outfit", serif;
+}
+
+.customersProfile {
+  margin-top: 30px;
+}
+
+.customersImage {
+  position: relative;
+}
+
+.customersImage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.customersImage span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  transform: translate(0%, -30%);
+}
+
+.customersProfile .colorBlack {
+  color: #04000b;
+  margin-top: 0;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Outfit", serif;
+}
+
+.customersProfile .colorGreen {
+  color: #49a760;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Outfit", serif;
 }

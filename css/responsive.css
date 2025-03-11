@@ -338,6 +338,11 @@
   .cardText svg {
     transform: translate(40%, 0);
   }
+
+  .cardItemImage img {
+    width: 190px;
+    height: 190px;
+  }
 }
 
 /* MEDIA BREAKPOINT FROM 769px TO 1057px */
@@ -1678,6 +1683,228 @@
   .colorWhiteText {
     margin-bottom: 20px;
     font-size: 20px;
+  }
+
+  .home6BackgroundImage {
+    height: 60vh;
+  }
+
+  .heroLogo img {
+    width: 120px;
+  }
+
+  .heroSvg svg {
+    width: 35px;
+  }
+
+  .agricultureFirmContainer {
+    gap: 10px;
+    margin-top: 60px;
+  }
+
+  .agricultureFirmLeft {
+    width: 50%;
+    padding: 30px 20px;
+  }
+
+  .agricultureFirmLeft h2 {
+    font-size: 36px;
+  }
+
+  .agricultureFirmRight {
+    width: 50%;
+  }
+
+  .firmBoxesIcon svg {
+    width: 80px;
+  }
+
+  .productStoreBackground {
+    height: 70vh;
+    margin-top: 60px;
+  }
+
+  .productStoreContainer h1 {
+    font-size: 36px;
+  }
+
+  .productStoreBtn {
+    padding: 16px 35px;
+  }
+
+  .organicFruitContainer {
+    gap: 10px;
+    margin-top: 60px;
+  }
+
+  .organicFruitLeft h2 {
+    font-size: 36px;
+  }
+
+  .organicFruitsBoxItem {
+    gap: 10px;
+  }
+
+  .organicFruitsImage img {
+    width: 40px;
+  }
+
+  .organicFruitsBoxItem .colorBlack {
+    font-size: 18px;
+  }
+
+  .organicFruitsCardItem {
+    width: 50%;
+    padding: 25px 10px;
+  }
+
+  .cardItemImage img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .featuredContainerBackground {
+    margin-top: 60px;
+  }
+
+  .featuredProductsContainer h2 {
+    font-size: 36px;
+  }
+
+  .featuredProductsCards {
+    gap: 5px;
+    margin-top: 30px;
+  }
+
+  .featuredProductsCardItem .colorBlack {
+    font-size: 16px;
+  }
+
+  .featuredProductsBtn {
+    padding: 10px 10px;
+    font-weight: 700;
+  }
+
+  .healthyProductsContainer {
+    margin-top: 60px;
+  }
+
+  .healthyProductsLeft {
+    width: 40%;
+  }
+
+  .healthyProductsLeftImage img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .healthyProductsRight {
+    width: 60%;
+  }
+
+  .healthyProductsRight h2 {
+    font-size: 36px;
+  }
+
+  .healthyProductsSolutions img {
+    width: 100px;
+  }
+
+  .healthyProductsBoxItem .colorBlack {
+    font-size: 16px;
+  }
+
+  .healthProductsBox {
+    margin-top: 15px;
+  }
+
+  .healthyProductsContentBox {
+    gap: 6px;
+    margin-top: 0;
+  }
+
+  .healthProductsBox::after {
+    right: 20%;
+    height: 120px;
+  }
+
+  .healthyProductsContentBox .colorBlack {
+    font-size: 16px;
+  }
+
+  .healthyProductsIcon svg {
+    width: 18px;
+  }
+
+  .productsItemsContainer {
+    margin-top: 30px;
+  }
+
+  .productsItemsBoxes {
+    gap: 10px;
+  }
+
+  .productsItemBoxImage img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .productsItemBox {
+    width: 50%;
+    height: 220px;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 0 10px;
+  }
+
+  .productsItemBox .colorBlack {
+    font-size: 16px;
+  }
+
+  .productsItemBox .amountNumber {
+    font-size: 16px;
+  }
+
+  .productsItemBtn {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .customerReviewsBackground {
+    height: 100vh;
+    margin-top: 60px;
+  }
+
+  .customerReviewsContainer h2 {
+    font-size: 36px;
+  }
+
+  .customerReviewBox {
+    width: 100%;
+    height: 280px;
+    margin: 25px auto;
+    padding: 20px 15px;
+  }
+
+  .customerReviewBox p {
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+
+  .customersImage img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .customersProfile .colorBlack {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .customersProfile .colorGreen {
+    font-size: 16px;
   }
 }
 
@@ -3798,7 +4025,7 @@
   }
 
   .blogPostsContainer {
-    margin: 120px auto;
+    margin: 80px auto;
   }
 
   .blogsNewsContainer {
@@ -3861,6 +4088,7 @@
     bottom: 54%;
     left: 49%;
   }
+
   .home5BackgroundImage {
     height: 40vh;
   }
@@ -3884,6 +4112,7 @@
   .oganicFirmLeftImage img {
     height: 300px;
   }
+
   .organicFirmMiddle {
     width: 100%;
     padding: 0;
@@ -3959,6 +4188,7 @@
   .liveStockTextBox .liveStockPara {
     font-size: 16px;
   }
+
   .liveStockText p {
     margin-top: 0;
   }
@@ -3969,6 +4199,7 @@
     padding: 0;
     text-align: center;
   }
+
   .liveStockRight p {
     font-size: 16px;
   }
@@ -4216,6 +4447,331 @@
   .colorWhiteText {
     margin-bottom: 20px;
     font-size: 16px;
+  }
+
+  .home6BackgroundImage {
+    height: 40vh;
+  }
+
+  .heroLogo img {
+    width: 100px;
+  }
+
+  .heroEmail {
+    gap: 10px;
+  }
+
+  .heroSvg svg {
+    width: 30px;
+  }
+
+  .agricultureFirmContainer {
+    gap: 10px;
+    margin-top: 40px;
+    flex-direction: column;
+  }
+
+  .agricultureFirmLeft {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .agricultureFirmLeft h2 {
+    font-size: 24px;
+  }
+
+  .firmIcon svg {
+    width: 30px;
+  }
+
+  .agricultureFirmButton .colorBlack {
+    font-size: 16px;
+  }
+
+  .agricultureFirmRight {
+    width: 100%;
+  }
+
+  .firmRightBoxes {
+    margin-top: 30px;
+  }
+
+  .firmRightBoxes .colorBlack {
+    font-size: 16px;
+  }
+
+  .firmBoxesIcon svg {
+    width: 80px;
+  }
+
+  .productStoreBackground {
+    height: 70vh;
+    margin-top: 60px;
+  }
+
+  .productStoreContainer {
+    text-align: center;
+  }
+
+  .productStoreLabel {
+    width: 130px;
+    height: 120px;
+    padding: 10px 10px;
+  }
+
+  .productStoreContainer h1 {
+    font-size: 24px;
+  }
+
+  .productStoreContainer p {
+    margin-top: 10px;
+    line-height: 1.2em;
+  }
+
+  .productStoreBtn {
+    padding: 16px 25px;
+  }
+
+  .organicFruitContainer {
+    gap: 10px;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .organicFruitLeft {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .organicFruitLeft h2 {
+    font-size: 36px;
+  }
+
+  .organicFruitsRight {
+    width: 100%;
+  }
+
+  .organicFruitsBoxItem {
+    gap: 10px;
+  }
+
+  .organicFruitsImage img {
+    width: 40px;
+  }
+
+  .organicFruitsBoxItem .colorBlack {
+    font-size: 18px;
+  }
+
+  .organicFruitsCards {
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .organicFruitsCardItem {
+    width: 50%;
+    padding: 10px 10px;
+  }
+
+  .cardItemImage img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .featuredContainerBackground {
+    margin-top: 30px;
+  }
+
+  .featuredProductsContainer .italicGreen {
+    font-size: 16px;
+  }
+
+  .featuredProductsContainer h2 {
+    font-size: 24px;
+  }
+
+  .featuredProductsCards {
+    gap: 5px;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .featuredProductsCardItem {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .featuredProductsCardItem p {
+    margin-top: 0;
+  }
+
+  .featuredProductsCardItem .amountNumber {
+    margin-top: 6px;
+    font-size: 16px;
+  }
+
+  .featuredProductsCardItem .colorBlack {
+    font-size: 16px;
+  }
+
+  .featuredProductsButton {
+    margin-top: 10px;
+  }
+
+  .featuredProductsBtn {
+    padding: 8px 10px;
+    font-weight: 500;
+  }
+
+  .healthyProductsContainer {
+    margin-top: 40px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .healthyProductsLeft {
+    width: 100%;
+  }
+
+  .healthyProductsLeftImage img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .healthyProductsRight {
+    width: 100%;
+  }
+
+  .healthyProductsRight h2 {
+    font-size: 24px;
+  }
+
+  .healthyProductsRight p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .healthyProductsSolutions img {
+    width: 80px;
+  }
+
+  .healthyProductsSolutions span {
+    font-size: 16px;
+  }
+
+  .healthyProductsBoxItem .colorBlack {
+    font-size: 16px;
+  }
+
+  .healthProductsBox {
+    margin-top: 10px;
+  }
+
+  .healthyProductsContentBox {
+    gap: 6px;
+    margin-top: 0;
+  }
+
+  .healthProductsBox::after {
+    right: 20%;
+    height: 100px;
+  }
+
+  .healthyProductsContentBox .colorBlack {
+    font-size: 16px;
+  }
+
+  .healthyProductsIcon svg {
+    width: 16px;
+    margin-top: 5px;
+  }
+
+  .productsItemsContainer {
+    margin-top: 30px;
+  }
+
+  .productsItemsBoxes {
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .productsItemBoxImage img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .productsItemBox {
+    width: 100%;
+    height: 190px;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .productsItemBox .colorBlack {
+    font-size: 16px;
+  }
+
+  .productsItemBox .amountNumber {
+    font-size: 16px;
+  }
+
+  .productsItemBtn {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .customerReviewsBackground {
+    height: 65vh;
+    margin-top: 40px;
+    align-items: start;
+  }
+
+  .customerReviewsContainer .italicGreen {
+    font-size: 16px;
+}
+
+  .customerReviewsContainer h2 {
+    font-size: 24px;
+  }
+
+  .customerReviewBox {
+    width: 100%;
+    height: 220px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .customerReviewBox .customerReviewsStarIcons {
+    margin-top: 0px;
+  }
+
+  .customerReviewBox p {
+    font-size: 16px;
+    line-height: 1.4em;
+  }
+
+  .customersImage img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .customersImage span svg {
+    width: 30px;
+  }
+
+  .customersProfile .colorBlack {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .customersProfile .colorGreen {
+    font-size: 14px;
   }
 }
 
@@ -7004,6 +7560,7 @@
   .blogPostsButton .blogPostsRightText {
     font-size: 14px;
   }
+
   /* home 5 landing page start  */
   .home5BackgroundImage {
     height: 30vh;
@@ -7028,6 +7585,7 @@
   .oganicFirmLeftImage img {
     height: 200px;
   }
+
   .organicFirmMiddle {
     width: 100%;
     padding: 0;
@@ -7108,6 +7666,7 @@
   .liveStockTextBox .liveStockPara {
     font-size: 16px;
   }
+
   .liveStockText p {
     font-size: 14px;
     margin-top: 0;
@@ -7119,6 +7678,7 @@
     padding: 0;
     text-align: center;
   }
+
   .liveStockRight p {
     font-size: 14px;
   }
@@ -7141,6 +7701,7 @@
   .liveStockNumbers .liveNumber {
     font-size: 18px;
   }
+
   .liveStockNumbers .liveText {
     font-size: 14px;
   }

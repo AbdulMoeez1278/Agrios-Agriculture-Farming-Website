@@ -64,13 +64,37 @@
 .navBoxes {
   display: flex;
   gap: 10px;
+  /* position: relative; */
 }
+
+/* .navBoxes::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 50px;
+  border: 1px solid #E4E2D7;
+  left: 0;
+  right: 38%;
+  top: 0;
+  margin: 0 auto;
+  transform: translate(0%, -20%);
+} */
+
+/* .headAgriosFirst .navBoxes:nth-child(3) {
+  border-right: none;
+} */
 
 .navBox {
   display: flex;
   gap: 15px;
-  padding: 0 15px;
-  /* border-right: 1px solid #e4e2d7; */
+  padding: 20px 20px;
+  border-right: 1px solid #e4e2d7;
+}
+
+.navBox3 {
+  display: flex;
+  gap: 15px;
+  padding: 20px 20px;
 }
 
 .iconText p {
@@ -145,29 +169,32 @@
 
 /* second header with nav items start  */
 .headAgriosSecond {
-  margin-top: 50px;
+  margin: 30px 0;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .navItems {
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 80%;
+  justify-content: space-between;
 }
 
 .navItems ul {
   display: flex;
   list-style: none;
   align-items: center;
+  flex: 1;
+  justify-content: space-between;
 }
 
-.navItems ul li {
+/* .navItems ul li {
   padding: 0 38px;
-}
+} */
 
 .navItems ul li a:hover {
   color: #1f1f1f;
@@ -194,7 +221,7 @@
   position: absolute;
   width: 10%;
   height: auto;
-  left: 210px;
+  left: 120px;
   top: 150px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -224,7 +251,7 @@
   position: absolute;
   width: 15%;
   height: auto;
-  left: 440px;
+  left: 390px;
   top: 150px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -256,7 +283,7 @@
   position: absolute;
   width: 15%;
   height: auto;
-  left: 600px;
+  left: 550px;
   top: 150px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -288,7 +315,7 @@
   position: absolute;
   width: 10%;
   height: auto;
-  right: 640px;
+  right: 670px;
   top: 150px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -320,7 +347,7 @@
   position: absolute;
   width: 10%;
   height: auto;
-  right: 510px;
+  right: 520px;
   top: 150px;
   border-radius: 10px;
   background-color: #ffffff;

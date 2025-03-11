@@ -357,6 +357,15 @@
 
 .cartIcon {
   cursor: pointer;
+  position: relative;
+}
+
+.cartIcon .cartNumberIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 50%;
+  transform: translate(0, -20%);
 }
 
 /* second header with nav items end  */
@@ -4495,6 +4504,11 @@ select:focus {
   margin: 0 auto;
   padding: 20px 0;
   color: #ffffff;
+}
+
+.backgroundImage .iconText p {
+  font-size: 12px;
+  color: white;
 }
 
 .home2HeadContainer .navItems ul li a {

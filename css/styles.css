@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Manrope", serif;
+  scroll-behavior: smooth;
 }
 
 /* main container  */
@@ -40,6 +41,8 @@
   display: flex;
   list-style: none;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .socialIcons ul li {
@@ -628,17 +631,16 @@
 
 .servicesBox {
   display: flex;
-  gap: 30px;
   width: 100%;
   position: relative;
   bottom: 120px;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .serviceItemFirst {
   display: flex;
-  width: 12%;
+  width: 20%;
   height: 300px;
   align-items: end;
   text-align: center;
@@ -677,7 +679,7 @@
 
 .serviceItemSecond {
   display: flex;
-  width: 12%;
+  width: 20%;
   height: 300px;
   align-items: end;
   text-align: center;
@@ -691,7 +693,7 @@
 
 .serviceItemThird {
   display: flex;
-  width: 12%;
+  width: 20%;
   height: 300px;
   align-items: end;
   text-align: center;
@@ -705,7 +707,7 @@
 
 .serviceItemFourth {
   display: flex;
-  width: 12%;
+  width: 20%;
   height: 300px;
   align-items: end;
   text-align: center;
@@ -817,10 +819,9 @@
 
 .exploreProjectsBoxes {
   display: flex;
-  gap: 20px;
   width: 100%;
-  margin-top: 30px;
-  justify-content: center;
+  margin-top: 40px;
+  justify-content: space-between;
 }
 
 .exploreProjectsBoxes h3 {
@@ -943,6 +944,8 @@
 
 .testimonialRight {
   width: 70%;
+  display: flex;
+  justify-content: center;
 }
 
 .cardBackground {
@@ -1000,11 +1003,11 @@
   display: flex;
   width: 100%;
   margin-top: 100px;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .benefitsLeft {
-  width: 60%;
+  width: 50%;
 }
 
 .benefitsImage {
@@ -1018,7 +1021,7 @@
 }
 
 .benefitsRight {
-  width: 40%;
+  width: 45%;
   /* border: 2px solid black; */
 }
 
@@ -1108,14 +1111,13 @@
 
 .blogsBoxes {
   display: flex;
-  gap: 30px;
   width: 100%;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .blogsBoxItem {
-  width: 25%;
+  width: 30%;
   height: 450px;
   border-radius: 10px;
   position: relative;
@@ -1338,10 +1340,12 @@
 
 .footerContent ul {
   display: flex;
-  padding: 20px;
+  padding: 30px 0;
   list-style: none;
   flex-wrap: wrap;
-  justify-content: space-around;
+  max-width: 1280px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .footerContent ul li {
@@ -1514,11 +1518,13 @@
   display: flex;
   list-style: none;
   align-items: center;
+  flex: 1;
+  justify-content: space-around;
 }
 
-.aboutVideoItems ul li {
+/* .aboutVideoItems ul li {
   padding: 20px 40px;
-}
+} */
 
 .aboutVideoItems ul li a {
   text-decoration: none;
@@ -1561,9 +1567,9 @@
 
 .aboutTestimonialCards {
   display: flex;
-  gap: 90px;
+  /* gap: 90px; */
   text-align: left;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .aboutTestimonialBox {
@@ -1647,15 +1653,14 @@
 
 .teamMembersBoxes {
   display: flex;
-  gap: 20px;
   width: 100%;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .teamMembersBoxFirst {
   display: flex;
-  width: 20%;
+  width: 25%;
   height: 350px;
   align-items: end;
   justify-content: end;
@@ -1667,7 +1672,7 @@
 
 .teamMembersBoxSecond {
   display: flex;
-  width: 20%;
+  width: 25%;
   height: 350px;
   align-items: end;
   justify-content: end;
@@ -1679,7 +1684,7 @@
 
 .teamMembersBoxThird {
   display: flex;
-  width: 20%;
+  width: 25%;
   height: 350px;
   align-items: end;
   justify-content: end;
@@ -1839,7 +1844,8 @@
 }
 
 .contactRight {
-  padding: 80px 80px;
+  padding: 0 80px;
+  margin-top: 80px;
   width: 60%;
   border: 2px solod blue;
   background: url("../assets/images/contactRightImage.png");
@@ -1958,10 +1964,9 @@ textarea {
 
 .projectsBoxesFirst {
   display: flex;
-  gap: 20px;
   width: 100%;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .projectsBoxesFirst h3 {
@@ -2014,10 +2019,9 @@ textarea {
 
 .projectsBoxesSecond {
   display: flex;
-  gap: 20px;
   width: 100%;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .projectsBoxesSecond h3 {
@@ -2083,9 +2087,9 @@ textarea {
 
 .healthyFoodContainer {
   display: flex;
-  gap: 20px;
   width: 100%;
   margin-top: 80px;
+  justify-content: space-between;
 }
 
 .healthyFoodLeft {
@@ -2093,7 +2097,7 @@ textarea {
 }
 
 .healthyFoodRight {
-  width: 30%;
+  width: 25%;
   /* border: 2px solid blue; */
 }
 
@@ -2129,7 +2133,7 @@ textarea {
 .healthyFoodRightContent {
   width: 100%;
   height: 50vh;
-  padding: 30px 50px;
+  padding: 0 20px;
   border-radius: 10px;
   background-color: #ffffff;
   border-top: 4px solid #eec043;
@@ -2176,10 +2180,9 @@ textarea {
 
 .healthyFoodProjectsBoxes {
   display: flex;
-  gap: 20px;
   width: 100%;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .healthyFoodProjectsBoxes h3 {
@@ -2265,7 +2268,6 @@ textarea {
 
 .servicesPageContainer {
   display: flex;
-  gap: 20px;
   width: 100%;
   margin-top: 100px;
   justify-content: space-around;
@@ -2427,15 +2429,14 @@ textarea {
 .servicesVideoBoxes {
   width: 100%;
   display: flex;
-  gap: 30px;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
   position: relative;
   bottom: 60px;
 }
 
 .servicesVideoBox {
-  width: 20%;
+  width: 25%;
   height: 320px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -2600,8 +2601,8 @@ textarea {
 .agricultureProductsContainer {
   width: 100%;
   display: flex;
-  gap: 30px;
   margin: 120px auto;
+  justify-content: space-between;
 }
 
 .agricultureProductsLeft {
@@ -2800,8 +2801,8 @@ textarea {
 .newsContainer {
   width: 100%;
   display: flex;
-  gap: 20px;
   margin-top: 100px;
+  justify-content: space-between;
 }
 
 .newsContainerLeft {
@@ -2946,7 +2947,7 @@ textarea {
 
 /* news container right start  */
 .newsContainerRight {
-  width: 30%;
+  width: 25%;
 }
 
 .newRightSearchBar {
@@ -2967,7 +2968,7 @@ textarea {
 .latestPosts {
   width: 100%;
   margin-top: 30px;
-  padding: 40px 40px;
+  padding: 30px 20px;
   background-color: #f8f7f0;
   border-radius: 10px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
@@ -3058,7 +3059,7 @@ textarea {
 .newsRightThird {
   width: 100%;
   margin-top: 30px;
-  padding: 30px 40px;
+  padding: 20px 20px;
   background-color: #f8f7f0;
   border-radius: 10px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
@@ -3122,14 +3123,13 @@ textarea {
 
 .newsGridBoxes {
   display: flex;
-  gap: 30px;
   width: 100%;
   margin-top: 30px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .newsGridBoxItem {
-  width: 25%;
+  width: 30%;
   height: 450px;
   border-radius: 10px;
   position: relative;
@@ -3196,8 +3196,8 @@ textarea {
 .latestNewsContainer {
   width: 100%;
   display: flex;
-  gap: 20px;
   margin: 120px auto;
+  justify-content: space-between;
 }
 
 .latestNewsLeft {
@@ -3206,7 +3206,7 @@ textarea {
 }
 
 .latestNewsRight {
-  width: 30%;
+  width: 25%;
 }
 
 .latestNewsLeftImage {
@@ -3366,12 +3366,12 @@ input[type="checkbox"] {
 /* shop items container start  */
 .shopItemsContainer {
   display: flex;
-  gap: 20px;
   margin-top: 120px;
+  justify-content: space-between;
 }
 
 .shopItemsLeft {
-  width: 50%;
+  width: 45%;
 }
 
 .shopItemsLeftImage {
@@ -3386,7 +3386,7 @@ input[type="checkbox"] {
 
 .shopItemsRight {
   width: 50%;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 .shopItemsRightHeading {
@@ -3631,12 +3631,12 @@ input[type="checkbox"] {
 .shopContainer {
   width: 100%;
   display: flex;
-  gap: 20px;
   margin: 100px auto;
+  justify-content: space-between;
 }
 
 .shopContainerLeft {
-  width: 30%;
+  width: 25%;
 }
 
 .shopContainerLeft input {
@@ -4184,10 +4184,9 @@ select:focus {
 .specialOffersBoxes {
   width: 100%;
   display: flex;
-  gap: 30px;
   flex-wrap: wrap;
   margin-top: 60px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -4236,12 +4235,12 @@ select:focus {
 .qualityProductsContainer {
   width: 100%;
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
   margin: 120px auto;
 }
 
 .qualityProductsLeft {
-  width: 50%;
+  width: 45%;
 }
 
 .qualityProductsLeft img {
@@ -4351,9 +4350,8 @@ select:focus {
 
 .home3TestimonialCards {
   display: flex;
-  gap: 90px;
   text-align: left;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .home3TestimonialBoxFirst {
@@ -4628,7 +4626,7 @@ select:focus {
 .agricultureMarketContainer {
   width: 100%;
   display: flex;
-  gap: 40px;
+  justify-content: space-between;
   margin: 120px auto;
 }
 
@@ -4699,9 +4697,8 @@ select:focus {
 }
 
 .agricultureMarketRight {
-  width: 50%;
+  width: 45%;
   display: flex;
-  gap: 10px;
 }
 
 .agricultureMarketImage {
@@ -4709,6 +4706,7 @@ select:focus {
 }
 
 .agricultureMarketImage img {
+  width: 90%;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
@@ -4733,10 +4731,9 @@ select:focus {
 
 .home2ServicesBoxes {
   display: flex;
-  gap: 30px;
   width: 100%;
   margin-top: 50px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .home2ServicesItemFirst {
@@ -5084,10 +5081,9 @@ select:focus {
 
 .articleNewsBoxes {
   display: flex;
-  gap: 20px;
   width: 100%;
   margin-top: 50px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .articleNewsBoxes h3 {
@@ -5171,9 +5167,9 @@ select:focus {
 .productFarmContainer {
   width: 100%;
   display: flex;
-  gap: 20px;
   margin-top: 100px;
   position: relative;
+  justify-content: space-between;
 }
 
 .productFarmLeft {
@@ -5185,9 +5181,9 @@ select:focus {
   width: 100%;
 }
 
-.productFarmleftImage img {
+.productFarmLeftImage img {
   width: 100%;
-  height: 800px;
+  height: 700px;
 }
 
 .productFarmImage2 {
@@ -5204,8 +5200,7 @@ select:focus {
 }
 
 .productFarmRight {
-  width: 50%;
-  padding: 30px 60px;
+  width: 45%;
 }
 
 .productFarmRight h2 {
@@ -5247,15 +5242,15 @@ select:focus {
 
 .productFarmBoxes {
   display: flex;
-  gap: 30px;
   position: absolute;
   right: 0;
   bottom: 50px;
-  width: 60%;
+  width: 70%;
+  justify-content: space-around;
 }
 
 .productFarmBox1 {
-  width: 50%;
+  width: 40%;
   padding: 40px 40px;
   background-color: #f7c35f;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
@@ -5279,7 +5274,7 @@ select:focus {
 }
 
 .productFarmBox2 {
-  width: 50%;
+  width: 40%;
   padding: 40px 40px;
   background-color: #49a760;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
@@ -5318,12 +5313,12 @@ select:focus {
 .sellOrganicBoxes {
   width: 100%;
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
   margin-top: 60px;
 }
 
 .sellOrganicBoxCard {
-  width: 35%;
+  width: 30%;
   padding: 40px 40px;
   background-color: #fcfcfc;
   border-radius: 30px;
@@ -5549,7 +5544,7 @@ select:focus {
 .home4ContactContainer {
   width: 100%;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .home4ContactLeft {
@@ -5557,7 +5552,7 @@ select:focus {
 }
 
 .home4ContactRight {
-  width: 50%;
+  width: 45%;
   padding: 0 30px;
 }
 
@@ -5676,12 +5671,12 @@ select:focus {
 
 .blogsNewsContainer {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
 .blogPostsLeft {
-  width: 50%;
+  width: 45%;
   /* height: 40vh; */
   background: url("../assets/images/blogPostsLeftImg.jpeg");
   background-repeat: no-repeat;
@@ -5724,12 +5719,12 @@ select:focus {
 
 .blogPostsBox {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
   position: relative;
 }
 
 .blogPostsCard {
-  width: 50%;
+  width: 45%;
 }
 
 .blogPostsImage {
@@ -5746,7 +5741,7 @@ select:focus {
   position: absolute;
   top: 35%;
   left: 0;
-  transform: translate(0, -20%);
+  transform: translate(0, -25%);
 }
 
 .blogPostsCard .blogNewsSecond {
@@ -5754,7 +5749,7 @@ select:focus {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  transform: translate(8%, 30%);
+  transform: translate(25%, 30%);
 }
 
 .blogPostsCard .blogNewsDate {
@@ -5826,11 +5821,12 @@ select:focus {
   background-size: contain;
   background-position: right bottom;
 }
+
 .organicFirmsContainer {
   width: 100%;
   margin-top: 100px;
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .organicFirmLeft {
@@ -5905,7 +5901,7 @@ select:focus {
 }
 
 .organicFirmRight {
-  width: 30%;
+  width: 25%;
 }
 
 .organicFirmBoxes {
@@ -5946,7 +5942,6 @@ select:focus {
 .liveStockContainer {
   width: 100%;
   display: flex;
-  gap: 30px;
 }
 
 .liveStockLeft {
@@ -6015,10 +6010,12 @@ select:focus {
   font-family: "Outfit", serif;
   font-size: 16px;
 }
+
 .liveStockNumbersSecond {
   margin-top: 10px;
   width: 50%;
 }
+
 .liveStockNumbersSecond .liveNumber {
   font-size: 50px;
   font-weight: 600;
@@ -6036,9 +6033,10 @@ select:focus {
 /* healthy life container start  */
 .healthyLifeBackground {
   width: 100%;
-  height: 80vh;
+  /* height: 80vh;
   display: flex;
-  align-items: center;
+  align-items: center; */
+  padding: 30px 0;
   margin-top: 100px;
   background-color: #e9f1ee;
 }
@@ -6055,11 +6053,10 @@ select:focus {
 
 .healthyLifeBoxes {
   display: flex;
-  gap: 20px;
   width: 100%;
   margin-top: 50px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .healthyLifeCard {
@@ -6267,11 +6264,11 @@ select:focus {
 .faqContainer {
   width: 100%;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .faqContainerLeft {
-  width: 50%;
+  width: 45%;
 }
 
 .faqLeftImage {
@@ -6279,7 +6276,7 @@ select:focus {
 }
 
 .faqLeftImage img {
-  width: 90%;
+  width: 100%;
   height: 520px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
@@ -6362,7 +6359,7 @@ select:focus {
 
 .projectsGalleryTop {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
   margin-top: 60px;
 }
 
@@ -6401,7 +6398,7 @@ select:focus {
   flex-direction: column;
   padding: 0 60px;
   align-items: start;
-  width: 70%;
+  width: 65%;
   height: 400px;
   background: url("../assets/images/projectsGalleryTopImg2.jpeg");
   background-repeat: no-repeat;
@@ -6413,7 +6410,7 @@ select:focus {
   width: 100%;
   margin-top: 30px;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .projectsGalleryBottomLeft {
@@ -6450,7 +6447,7 @@ select:focus {
   flex-direction: column;
   padding: 0 60px;
   align-items: start;
-  width: 35%;
+  width: 25%;
   height: 400px;
   background: url("../assets/images/projectsGalleryTopImg5.jpeg");
   background-repeat: no-repeat;
@@ -6503,7 +6500,6 @@ select:focus {
 .agricultureFirmContainer {
   width: 100%;
   display: flex;
-  gap: 20px;
   margin-top: 100px;
 }
 
@@ -6654,12 +6650,12 @@ select:focus {
 .organicFruitContainer {
   width: 100%;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
   margin-top: 100px;
 }
 
 .organicFruitLeft {
-  width: 40%;
+  width: 35%;
   padding: 60px 30px;
   text-align: center;
   background-color: #49a760;
@@ -6919,12 +6915,12 @@ select:focus {
 .healthyProductsContainer {
   width: 100%;
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
   margin-top: 120px;
 }
 
 .healthyProductsLeft {
-  width: 50%;
+  width: 45%;
 }
 
 .healthyProductsLeftImage {
